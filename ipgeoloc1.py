@@ -1,11 +1,13 @@
 
+# info from https://ripe-atlas-cousteau.readthedocs.io/_/downloads/en/latest/pdf/
 from ripe.atlas.cousteau import AtlasLatestRequest, Probe, Measurement
 # Sagans sole purpose is to make RIPE Atlas measurements manageable from within Python.
 # https://ripe-atlas-sagan.readthedocs.io/en/latest/use.html#how-to-use-this-library
 # Attributes and Methods at https://ripe-atlas-sagan.readthedocs.io/en/latest/types.html
 from ripe.atlas.sagan import Result, PingResult
-measurements_dict = {}                                        # initialis the measurtments dictionary
+measurements_dict = {}                                        # initialis the measuretments dictionary
 measurements_list = [28110368,]                               # initialise the measurements list
+from html_create import Html_Create 
 
 
 for measurement in measurements_list:
@@ -13,7 +15,7 @@ for measurement in measurements_list:
     m = Measurement(id=measurement)                         # get metadata for this measurement
 
 
-    # info from https://ripe-atlas-cousteau.readthedocs.io/_/downloads/en/latest/pdf/
+    
     kwargs = {
     "msm_id": measurement,   # my south africa measurement 
     #"start": datetime(2015, 05, 19), # just testing date filtering
@@ -43,15 +45,20 @@ for measurement in measurements_list:
             measurements_dict[measurement][probe_id]['ip_addr'] = result.origin     # get the Ip address of this probe
             measurements_dict[measurement][probe_id]['x_coord'] = probe_x           # get the x coordinate of this probe
             measurements_dict[measurement][probe_id]['y_coord'] = probe_y           # get the y coordinate of this probe
+            measurements_dict[measurement][probe_id]['asn'] = probe.asn_v4
         
 
            
 
             i=i+1
-        measurements_dict[measurement]['dest_addr'] = m.target_ip                   # Add the Targte IP address for this emasurement to the Dictionary
+        measurements_dict[measurement]['dest_addr'] = m.target_ip                   # Add the Target IP address for this mewasurement to the Dictionary
         measurements_dict[measurement]['dest_asn'] = m.target_asn                   # Add the Target ASN for this emasurement if it is available.
         
-        print(measurements_dict)
-        print(measurements_dict[measurement]['dest_addr'])
-
+        #print(measurements_dict.keys())
+        #print(measurements_dict)
+        #print(measurements_dict[measurement]['dest_addr'])
+        html = Html_Create(measurements_dict)
+      
+        
+        
         

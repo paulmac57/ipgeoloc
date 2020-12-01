@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    
+    
+    
+    <style>
+      html, body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      #mapid {
+        // configure the size of the map 
+        width: 100%;
+        height: 100%;
+      } 
+
+    </style>
+  </head>
+  <body>
+    <div id="mapid"></div>
+    <script>
+      // initialize Leaflet
+
+      var map = L.map('mapid').setView([52.05882585, 1.27904951], 6);
+      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox/streets-v11',
+      tileSize: 512,
+      zoomOffset: -1,
+      accessToken: 'pk.eyJ1IjoicGF1bG1hYzU3IiwiYSI6ImNrY3AwMXU3azAxb3Yycm1nOWJjMWwxeW8ifQ.CMYqmZyOXntGEoI1X01_vw'
+      }).addTo(map);
+    
+
+      // show the scale bar on the lower left corner
+      L.control.scale().addTo(map);
+
+      // show AS on the map
+
+      var circle = L.circle([52.05882585, 1.27904951], { 
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5,
+        radius: 50000
+        }).addTo(map);
+      // show the area of operation of the AS on the map
+      var polygon = L.polygon([
+        [33.45570000,-112.06860000],
+        [39.73920000,-104.98470000],
+        [40.71850000,-74.00250000],
+        [42.05810000,-88.04820000],
+        [43.70010000,-79.41630000],
+        [50.89920000,-1.18820000],
+        [51.11300000,-0.18310000],
+        [51.35050000,-1.12850000],
+        [51.37130000,-0.49350000],
+        [51.45520000,-2.59660000],
+        [51.45620000,-0.97110000],
+        [51.48000000,-3.18000000],
+        [51.50850000,-0.12570000],
+        [51.54890000,-0.48210000],
+        [51.76390000,-0.45310000],
+        [52.07040000,-0.51490000],
+        [52.08730000,-0.72220000],
+        [52.20000000,0.11670000],
+        [52.41430000,-1.78090000],
+        [52.57540000,-1.54690000],
+        [52.80730000,-1.64260000],
+        [53.34170000,-2.73120000],
+        [53.40980000,-2.15760000],
+        [53.74460000,-0.33520000],
+        [53.75000000,-2.48330000],
+        [53.79650000,-1.54780000],
+        [53.95760000,-1.08270000],
+        [54.97330000,-1.61400000],
+        [55.95210000,-3.19650000],
+        ]).addTo(map);
+      polygon.bindPopup("<b>AS2856</b><br />BT Communications Plc<br />Area of Operation");
+      var circle1 = L.circle([33.45570000,-112.06860000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle1.bindPopup("<b>AS2856</b><br />Viad Corp<br />170.136.117.0/24 ").openPopup();
+
+      var circle2 = L.circle([39.73920000,-104.98470000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle2.bindPopup("<b>AS2856</b><br />Quantum Corporation<br />146.174.170.0/23 ").openPopup();
+
+      var circle3 = L.circle([40.71850000,-74.00250000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle3.bindPopup("<b>AS2856</b><br />DigitalOcean, LLC<br />147.182.214.0/24 ").openPopup();
+
+      var circle4 = L.circle([42.05810000,-88.04820000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle4.bindPopup("<b>AS2856</b><br />A.C. Nielsen Company<br />138.108.94.0/24 ").openPopup();
+
+      var circle5 = L.circle([43.70010000,-79.41630000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle5.bindPopup("<b>AS2856</b><br />Toronto Dominion Bank<br />142.205.162.0/23 ").openPopup();
+
+      var circle6 = L.circle([50.89920000,-1.18820000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle6.bindPopup("<b>AS2856</b><br />4000 Parkway<br />159.197.45.0/24 ").openPopup();
+
+      var circle7 = L.circle([51.11300000,-0.18310000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle7.bindPopup("<b>AS2856</b><br />THALES Service<br />192.93.165.0/24 ").openPopup();
+
+      var circle8 = L.circle([51.35050000,-1.12850000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle8.bindPopup("<b>AS2856</b><br />Atomic Weapons Establishment<br />132.153.254.0/24 ").openPopup();
+
+      var circle9 = L.circle([51.37130000,-0.49350000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle9.bindPopup("<b>AS2856</b><br />Department for Environment, Food and Rural Affairs<br />148.253.4.0/22 ").openPopup();
+
+      var circle10 = L.circle([51.45520000,-2.59660000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle10.bindPopup("<b>AS2856</b><br />Department for Environment, Food and Rural Affairs<br />148.253.220.0/23 ").openPopup();
+
+      var circle11 = L.circle([51.45620000,-0.97110000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle11.bindPopup("<b>AS2856</b><br />Veritas Technologies (UK) Limited<br />185.192.164.0/22 ").openPopup();
+
+      var circle12 = L.circle([51.48000000,-3.18000000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle12.bindPopup("<b>AS2856</b><br />Aytel Systems Ltd<br />185.148.88.0/22 ").openPopup();
+
+      var circle13 = L.circle([51.50850000,-0.12570000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle13.bindPopup("<b>AS2856</b><br />Telme Online Limited<br />193.195.138.0/24 ").openPopup();
+
+      var circle14 = L.circle([51.54890000,-0.48210000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle14.bindPopup("<b>AS2856</b><br />Marks and Spencer PLC<br />193.32.254.0/24 ").openPopup();
+
+      var circle15 = L.circle([51.76390000,-0.45310000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle15.bindPopup("<b>AS2856</b><br />Sir Robert McAlpine Ltd<br />193.32.39.0/24 ").openPopup();
+
+      var circle16 = L.circle([52.07040000,-0.51490000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle16.bindPopup("<b>AS2856</b><br />LOCKHEED MARTIN UK HOLDINGS LIMITED<br />192.28.128.0/24 ").openPopup();
+
+      var circle17 = L.circle([52.08730000,-0.72220000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle17.bindPopup("<b>AS2856</b><br />BI Worldwide Ltd<br />185.90.32.0/22 ").openPopup();
+
+      var circle18 = L.circle([52.20000000,0.11670000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle18.bindPopup("<b>AS2856</b><br />Sagentia Ltd<br />185.128.205.0/24 ").openPopup();
+
+      var circle19 = L.circle([52.41430000,-1.78090000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle19.bindPopup("<b>AS2856</b><br />RWE NPower<br />144.98.98.0/24 ").openPopup();
+
+      var circle20 = L.circle([52.57540000,-1.54690000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle20.bindPopup("<b>AS2856</b><br />ALDI International Services GmbH & Co. oHG<br />185.157.103.0/24 ").openPopup();
+
+      var circle21 = L.circle([52.80730000,-1.64260000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle21.bindPopup("<b>AS2856</b><br />BONTBLOCK<br />109.205.158.0/24 ").openPopup();
+
+      var circle22 = L.circle([53.34170000,-2.73120000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle22.bindPopup("<b>AS2856</b><br />TEVA UK HOLDINGS LIMITED<br />193.28.232.0/24 ").openPopup();
+
+      var circle23 = L.circle([53.40980000,-2.15760000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle23.bindPopup("<b>AS2856</b><br />Cheshire Datasystems Limited<br />185.156.48.0/24 ").openPopup();
+
+      var circle24 = L.circle([53.74460000,-0.33520000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle24.bindPopup("<b>AS2856</b><br />KCOM BT sub-allocation<br />178.78.112.0/21 ").openPopup();
+
+      var circle25 = L.circle([53.75000000,-2.48330000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle25.bindPopup("<b>AS2856</b><br />British Telecommunications plc<br />147.148.0.0/14 ").openPopup();
+
+      var circle26 = L.circle([53.79650000,-1.54780000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle26.bindPopup("<b>AS2856</b><br />KCOM BT sub-allocation<br />178.78.120.0/21 ").openPopup();
+
+      var circle27 = L.circle([53.95760000,-1.08270000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle27.bindPopup("<b>AS2856</b><br />British Telecommunications plc<br />147.152.0.0/16 ").openPopup();
+
+      var circle28 = L.circle([54.97330000,-1.61400000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle28.bindPopup("<b>AS2856</b><br />Virgin Money plc<br />193.32.48.0/24 ").openPopup();
+
+      var circle29 = L.circle([55.95210000,-3.19650000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle29.bindPopup("<b>AS2856</b><br />Standard Life Employee Services Ltd.<br />193.138.107.0/24 ").openPopup();
+
+      circle.bindPopup("<b>AS2856</b><br />BT Communications Plc ").openPopup();
+
+    </script>
+  </body>
+</html>

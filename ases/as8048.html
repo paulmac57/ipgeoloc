@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    
+    
+    
+    <style>
+      html, body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      #mapid {
+        // configure the size of the map 
+        width: 100%;
+        height: 100%;
+      } 
+
+    </style>
+  </head>
+  <body>
+    <div id="mapid"></div>
+    <script>
+      // initialize Leaflet
+
+      var map = L.map('mapid').setView([10.50609800, -66.91460170], 6);
+      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox/streets-v11',
+      tileSize: 512,
+      zoomOffset: -1,
+      accessToken: 'pk.eyJ1IjoicGF1bG1hYzU3IiwiYSI6ImNrY3AwMXU3azAxb3Yycm1nOWJjMWwxeW8ifQ.CMYqmZyOXntGEoI1X01_vw'
+      }).addTo(map);
+    
+
+      // show the scale bar on the lower left corner
+      L.control.scale().addTo(map);
+
+      // show AS on the map
+
+      var circle = L.circle([10.50609800, -66.91460170], { 
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5,
+        radius: 50000
+        }).addTo(map);
+      // show the area of operation of the AS on the map
+      var polygon = L.polygon([
+        [7.76690000,-72.22500000],
+        [7.88780000,-67.47240000],
+        [8.12920000,-63.54090000],
+        [8.35120000,-62.64100000],
+        [8.58970000,-71.15610000],
+        [8.62260000,-70.20750000],
+        [9.58140000,-69.23850000],
+        [9.66120000,-68.58270000],
+        [9.74570000,-63.18320000],
+        [10.06470000,-69.35700000],
+        [10.13630000,-64.68620000],
+        [10.16200000,-68.00760000],
+        [10.23540000,-67.59110000],
+        [10.25600000,-68.01650000],
+        [10.39910000,-71.45210000],
+        [10.48800000,-66.87920000],
+        [10.66520000,-63.25390000],
+        [10.66660000,-71.61240000],
+        [11.40450000,-69.67340000],
+        [25.77430000,-80.19370000],
+        ]).addTo(map);
+      polygon.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />186.88.0.0/13<br />190.9.128.0/19<br />190.72.0.0/14<br />Area of Operation");
+      var circle1 = L.circle([7.76690000,-72.22500000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle1.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.199.96.0/19 ").openPopup();
+
+      var circle2 = L.circle([7.88780000,-67.47240000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle2.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.198.0.0/19 ").openPopup();
+
+      var circle3 = L.circle([8.12920000,-63.54090000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle3.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.202.112.0/22 ").openPopup();
+
+      var circle4 = L.circle([8.35120000,-62.64100000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle4.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.200.96.0/19 ").openPopup();
+
+      var circle5 = L.circle([8.58970000,-71.15610000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle5.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />186.95.96.0/19 ").openPopup();
+
+      var circle6 = L.circle([8.62260000,-70.20750000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle6.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />186.93.96.0/19 ").openPopup();
+
+      var circle7 = L.circle([9.58140000,-69.23850000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle7.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />186.95.160.0/19 ").openPopup();
+
+      var circle8 = L.circle([9.66120000,-68.58270000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle8.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.199.192.0/19 ").openPopup();
+
+      var circle9 = L.circle([9.74570000,-63.18320000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle9.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.200.64.0/19 ").openPopup();
+
+      var circle10 = L.circle([10.06470000,-69.35700000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle10.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.200.160.0/19 ").openPopup();
+
+      var circle11 = L.circle([10.13630000,-64.68620000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle11.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.201.96.0/19 ").openPopup();
+
+      var circle12 = L.circle([10.16200000,-68.00760000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle12.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.199.224.0/19 ").openPopup();
+
+      var circle13 = L.circle([10.23540000,-67.59110000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle13.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.201.32.0/19 ").openPopup();
+
+      var circle14 = L.circle([10.25600000,-68.01650000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle14.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />186.95.224.0/19 ").openPopup();
+
+      var circle15 = L.circle([10.39910000,-71.45210000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle15.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.198.96.0/19 ").openPopup();
+
+      var circle16 = L.circle([10.48800000,-66.87920000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle16.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.202.0.0/20 ").openPopup();
+
+      var circle17 = L.circle([10.66520000,-63.25390000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle17.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.201.160.0/19 ").openPopup();
+
+      var circle18 = L.circle([10.66660000,-71.61240000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle18.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.199.32.0/19 ").openPopup();
+
+      var circle19 = L.circle([11.40450000,-69.67340000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle19.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela<br />190.201.64.0/19 ").openPopup();
+
+      var circle20 = L.circle([25.77430000,-80.19370000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle20.bindPopup("<b>AS8048</b><br />BANCO EXTERIOR<br />190.202.108.0/22 ").openPopup();
+
+      circle.bindPopup("<b>AS8048</b><br />CANTV Servicios, Venezuela ").openPopup();
+
+    </script>
+  </body>
+</html>

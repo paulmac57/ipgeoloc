@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    
+    
+    
+    <style>
+      html, body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      #mapid {
+        // configure the size of the map 
+        width: 100%;
+        height: 100%;
+      } 
+
+    </style>
+  </head>
+  <body>
+    <div id="mapid"></div>
+    <script>
+      // initialize Leaflet
+
+      var map = L.map('mapid').setView([41.34221680, -6.64670760], 6);
+      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox/streets-v11',
+      tileSize: 512,
+      zoomOffset: -1,
+      accessToken: 'pk.eyJ1IjoicGF1bG1hYzU3IiwiYSI6ImNrY3AwMXU3azAxb3Yycm1nOWJjMWwxeW8ifQ.CMYqmZyOXntGEoI1X01_vw'
+      }).addTo(map);
+    
+
+      // show the scale bar on the lower left corner
+      L.control.scale().addTo(map);
+
+      // show AS on the map
+
+      var circle = L.circle([41.34221680, -6.64670760], { 
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5,
+        radius: 50000
+        }).addTo(map);
+      var circle1 = L.circle([13.08780000,80.27850000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle1.bindPopup("<b>AS5400</b><br />Software Technology Parks of India<br />203.129.222.0/5400 ").openPopup();
+
+      var circle2 = L.circle([33.91920000,-118.41650000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle2.bindPopup("<b>AS5400</b><br />INFONET Services Corporation<br />206.73.0.0/5400 ").openPopup();
+
+      var circle3 = L.circle([38.95630000,-5.86160000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle3.bindPopup("<b>AS5400</b><br />GT MOTIVE<br />212.163.215.0/5400 ").openPopup();
+
+      var circle4 = L.circle([39.04370000,-77.48750000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle4.bindPopup("<b>AS5400</b><br />BT Global Services Luxembourg S.a.r.l<br />80.255.160.0/5400 ").openPopup();
+
+      var circle5 = L.circle([39.74350000,-105.10090000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle5.bindPopup("<b>AS5400</b><br />BAX GLOBAL<br />167.184.200.0/5400 ").openPopup();
+
+      var circle6 = L.circle([40.41650000,-3.70260000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle6.bindPopup("<b>AS5400</b><br />Beam Global Spain<br />212.49.191.0/5400 ").openPopup();
+
+      var circle7 = L.circle([40.55550000,-3.62730000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle7.bindPopup("<b>AS5400</b><br />BT Telecomunicaciones<br />212.163.169.0/5400 ").openPopup();
+
+      var circle8 = L.circle([41.38880000,2.15900000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle8.bindPopup("<b>AS5400</b><br />MINISTERIO DE EDUCACION CULTURA Y DEPORTE<br />212.163.24.0/5400 ").openPopup();
+
+      var circle9 = L.circle([41.43420000,-81.80440000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle9.bindPopup("<b>AS5400</b><br />The Boeing Company<br />192.48.14.0/5400 ").openPopup();
+
+      var circle10 = L.circle([43.23970000,-2.88580000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle10.bindPopup("<b>AS5400</b><br />EUROPASTRY<br />212.49.167.0/5400 ").openPopup();
+
+      var circle11 = L.circle([43.26270000,-2.92530000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle11.bindPopup("<b>AS5400</b><br />European Agency for Safety and Health at Work<br />212.49.142.0/5400 ").openPopup();
+
+      var circle12 = L.circle([48.13740000,11.57550000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle12.bindPopup("<b>AS5400</b><br />Official IP range SIRA FFM<br />188.64.18.0/5400 ").openPopup();
+
+      var circle13 = L.circle([48.13880000,11.53410000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle13.bindPopup("<b>AS5400</b><br />Infonet Network Services Germany<br />194.76.40.0/5400 ").openPopup();
+
+      var circle14 = L.circle([49.50300000,0.26520000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle14.bindPopup("<b>AS5400</b><br />SAFRAN NACELLES SAS<br />194.5.189.0/5400 ").openPopup();
+
+      var circle15 = L.circle([50.04130000,8.57020000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle15.bindPopup("<b>AS5400</b><br />PHOENIXITSER_0001_01007442<br />213.31.181.0/5400 ").openPopup();
+
+      var circle16 = L.circle([50.06140000,19.93660000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle16.bindPopup("<b>AS5400</b><br />ABB<br />137.133.22.0/5400 ").openPopup();
+
+      var circle17 = L.circle([50.11550000,8.68420000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle17.bindPopup("<b>AS5400</b><br />Hyundai Motor Europe GmbH<br />194.50.160.0/5400 ").openPopup();
+
+      var circle18 = L.circle([50.14330000,8.57110000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle18.bindPopup("<b>AS5400</b><br />KIA Motors Europe GmbH<br />195.66.70.0/5400 ").openPopup();
+
+      var circle19 = L.circle([50.83330000,4.36670000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle19.bindPopup("<b>AS5400</b><br />TESSENDERLO CHEMIE INTERNATIONAL NV<br />193.58.130.0/5400 ").openPopup();
+
+      var circle20 = L.circle([50.85050000,4.34880000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle20.bindPopup("<b>AS5400</b><br />Economic and Social Committee<br />193.41.42.0/5400 ").openPopup();
+
+      var circle21 = L.circle([50.89730000,4.43350000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle21.bindPopup("<b>AS5400</b><br />IP NEXIA N.V.<br />77.72.239.0/5400 ").openPopup();
+
+      var circle22 = L.circle([51.50850000,-0.12570000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle22.bindPopup("<b>AS5400</b><br />British Telecommunications PLC<br />212.127.0.0/5400 ").openPopup();
+
+      var circle23 = L.circle([52.22980000,21.01180000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle23.bindPopup("<b>AS5400</b><br />British Telecommunications PLC<br />195.90.64.0/5400 ").openPopup();
+
+      var circle24 = L.circle([53.58370000,9.69830000], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle24.bindPopup("<b>AS5400</b><br />British Telecommunications PLC<br />213.15.0.0/5400 ").openPopup();
+
+      // show the area of operation of the AS on the map
+      var polygon = L.polygon([
+        [13.08780000,80.27850000],
+        [33.91920000,-118.41650000],
+        [38.95630000,-5.86160000],
+        [39.04370000,-77.48750000],
+        [39.74350000,-105.10090000],
+        [40.41650000,-3.70260000],
+        [40.55550000,-3.62730000],
+        [41.38880000,2.15900000],
+        [41.43420000,-81.80440000],
+        [43.23970000,-2.88580000],
+        [43.26270000,-2.92530000],
+        [48.13740000,11.57550000],
+        [48.13880000,11.53410000],
+        [49.50300000,0.26520000],
+        [50.04130000,8.57020000],
+        [50.06140000,19.93660000],
+        [50.11550000,8.68420000],
+        [50.14330000,8.57110000],
+        [50.83330000,4.36670000],
+        [50.85050000,4.34880000],
+        [50.89730000,4.43350000],
+        [51.50850000,-0.12570000],
+        [52.22980000,21.01180000],
+        [53.58370000,9.69830000],
+        ]).addTo(map);
+      polygon.bindPopup("<b>AS5400</b><br />RIPE NCC ASN block<br />Area of Operation");
+      circle.bindPopup("<b>AS5400</b><br />RIPE NCC ASN block ").openPopup();
+
+    </script>
+  </body>
+</html>

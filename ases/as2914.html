@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    
+    
+    
+    <style>
+      html, body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      #mapid {
+        // configure the size of the map 
+        width: 100%;
+        height: 100%;
+      } 
+
+    </style>
+  </head>
+  <body>
+    <div id="mapid"></div>
+    <script>
+      // initialize Leaflet
+
+      var map = L.map('mapid').setView([39.6053, -104.892359], 6);
+      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox/streets-v11',
+      tileSize: 512,
+      zoomOffset: -1,
+      accessToken: 'pk.eyJ1IjoicGF1bG1hYzU3IiwiYSI6ImNrY3AwMXU3azAxb3Yycm1nOWJjMWwxeW8ifQ.CMYqmZyOXntGEoI1X01_vw'
+      }).addTo(map);
+    
+
+      // show the scale bar on the lower left corner
+      L.control.scale().addTo(map);
+
+      // show AS on the map
+
+      var circle = L.circle([39.6053, -104.892359], { 
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5,
+        radius: 50000
+        }).addTo(map);
+      var circle1 = L.circle([-33.8678,151.2073], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle1.bindPopup("<b>AS2914</b><br />NTT COMMUNICATIONS CORPORATION<br />153.254.80.0/22 ").openPopup();
+
+      var circle2 = L.circle([-23.5475,-46.6361], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle2.bindPopup("<b>AS2914</b><br />NTT DO BRASIL TELECOMUNICACOES LTDA.<br />177.129.168.0/22 ").openPopup();
+
+      var circle3 = L.circle([1.2897,103.8501], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle3.bindPopup("<b>AS2914</b><br />FDCservers.net<br />198.16.115.0/24 ").openPopup();
+
+      var circle4 = L.circle([22.2783,114.1747], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle4.bindPopup("<b>AS2914</b><br />Vpassion Technology Limited<br />103.138.53.0/24 ").openPopup();
+
+      var circle5 = L.circle([26.3799,-80.0975], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle5.bindPopup("<b>AS2914</b><br />NTT America, Inc.<br />198.66.0.0/16 ").openPopup();
+
+      var circle6 = L.circle([29.7404,-95.5589], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle6.bindPopup("<b>AS2914</b><br />NTT America, Inc.<br />198.63.0.0/16 ").openPopup();
+
+      var circle7 = L.circle([32.7831,-96.8067], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle7.bindPopup("<b>AS2914</b><br />Akamai Technologies, Inc.<br />104.77.152.0/24 ").openPopup();
+
+      var circle8 = L.circle([32.7939,-96.8319], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle8.bindPopup("<b>AS2914</b><br />NTT America, Inc.<br />198.64.0.0/15 ").openPopup();
+
+      var circle9 = L.circle([33.9192,-118.4165], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle9.bindPopup("<b>AS2914</b><br />NTT America, Inc.<br />140.174.0.0/16 ").openPopup();
+
+      var circle10 = L.circle([34.0194,-118.4912], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle10.bindPopup("<b>AS2914</b><br />Dial2SMS Inc<br />104.152.144.0/21 ").openPopup();
+
+      var circle11 = L.circle([34.0522,-118.2437], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle11.bindPopup("<b>AS2914</b><br />Akamai Technologies, Inc.<br />184.28.230.0/23 ").openPopup();
+
+      var circle12 = L.circle([35.5491,139.7456], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle12.bindPopup("<b>AS2914</b><br />Kirino Enterprise Solutions<br />185.213.151.0/24 ").openPopup();
+
+      var circle13 = L.circle([35.65,139.75], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle13.bindPopup("<b>AS2914</b><br />NTT COMMUNICATIONS CORPORATION<br />153.254.92.0/22 ").openPopup();
+
+      var circle14 = L.circle([35.6655,139.6705], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle14.bindPopup("<b>AS2914</b><br />Kirino ICT Solutions<br />103.142.141.0/24 ").openPopup();
+
+      var circle15 = L.circle([35.6895,139.6917], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle15.bindPopup("<b>AS2914</b><br />FDCservers.net<br />198.16.114.0/24 ").openPopup();
+
+      var circle16 = L.circle([37.3394,-121.895], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle16.bindPopup("<b>AS2914</b><br />Akamai Technologies, Inc.<br />184.51.176.0/20 ").openPopup();
+
+      var circle17 = L.circle([37.7864,-122.3892], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle17.bindPopup("<b>AS2914</b><br />NTT America, Inc.<br />192.80.12.0/22 ").openPopup();
+
+      var circle18 = L.circle([38.9144,-77.074], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle18.bindPopup("<b>AS2914</b><br />NTT America, Inc.<br />198.84.16.0/20 ").openPopup();
+
+      var circle19 = L.circle([38.9814,-77.4723], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle19.bindPopup("<b>AS2914</b><br />NTT America, Inc.<br />198.87.0.0/16 ").openPopup();
+
+      var circle20 = L.circle([39.0437,-77.4875], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle20.bindPopup("<b>AS2914</b><br />Canon USA Inc.<br />146.184.152.0/22 ").openPopup();
+
+      var circle21 = L.circle([39.2051,-76.8322], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle21.bindPopup("<b>AS2914</b><br />NTT America, Inc.<br />198.17.243.0/24 ").openPopup();
+
+      var circle22 = L.circle([39.6123,-104.8799], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle22.bindPopup("<b>AS2914</b><br />NTT America, Inc.<br />198.88.0.0/16 ").openPopup();
+
+      var circle23 = L.circle([40.7834,-73.9663], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle23.bindPopup("<b>AS2914</b><br />Akamai Technologies, Inc.<br />104.88.68.0/23 ").openPopup();
+
+      var circle24 = L.circle([41.85,-87.65], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle24.bindPopup("<b>AS2914</b><br />Akamai Technologies, Inc.<br />104.77.130.0/24 ").openPopup();
+
+      var circle25 = L.circle([42.2794,-83.784], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle25.bindPopup("<b>AS2914</b><br />Blackrose<br />192.131.22.0/24 ").openPopup();
+
+      var circle26 = L.circle([42.3584,-71.0598], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle26.bindPopup("<b>AS2914</b><br />Blueport Commerce<br />192.231.0.0/24 ").openPopup();
+
+      var circle27 = L.circle([42.362,-71.083], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle27.bindPopup("<b>AS2914</b><br />NTT America, Inc.<br />192.204.0.0/16 ").openPopup();
+
+      var circle28 = L.circle([47.6062,-122.3321], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle28.bindPopup("<b>AS2914</b><br />Akamai Technologies, Inc.<br />104.77.163.0/24 ").openPopup();
+
+      var circle29 = L.circle([47.6174,-122.1426], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle29.bindPopup("<b>AS2914</b><br />NTT America, Inc.<br />192.147.176.0/22 ").openPopup();
+
+      var circle30 = L.circle([48.3043,16.3614], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle30.bindPopup("<b>AS2914</b><br />NTT Europe Limited<br />185.84.16.0/22 ").openPopup();
+
+      var circle31 = L.circle([48.8534,2.3488], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle31.bindPopup("<b>AS2914</b><br />FR-SGBD<br />193.178.210.0/24 ").openPopup();
+
+      var circle32 = L.circle([50.1137,8.7119], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle32.bindPopup("<b>AS2914</b><br />NTT Europe Limited<br />158.181.56.0/21 ").openPopup();
+
+      var circle33 = L.circle([51.5085,-0.1257], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle33.bindPopup("<b>AS2914</b><br />INEOS Group<br />129.230.47.0/24 ").openPopup();
+
+      var circle34 = L.circle([52.374,4.8897], { color: 'green', fillColor: '#00ff4d', fillOpacity: 0.5, radius: 20000 }).addTo(map);
+      circle34.bindPopup("<b>AS2914</b><br />NTT America, Inc.<br />165.254.255.0/24 ").openPopup();
+
+      // show the area of operation of the AS on the map
+      var polygon = L.polygon([
+        [-33.8678,151.2073],
+        [-23.5475,-46.6361],
+        [1.2897,103.8501],
+        [22.2783,114.1747],
+        [26.3799,-80.0975],
+        [29.7404,-95.5589],
+        [32.7831,-96.8067],
+        [32.7939,-96.8319],
+        [33.9192,-118.4165],
+        [34.0194,-118.4912],
+        [34.0522,-118.2437],
+        [35.5491,139.7456],
+        [35.65,139.75],
+        [35.6655,139.6705],
+        [35.6895,139.6917],
+        [37.3394,-121.895],
+        [37.7864,-122.3892],
+        [38.9144,-77.074],
+        [38.9814,-77.4723],
+        [39.0437,-77.4875],
+        [39.2051,-76.8322],
+        [39.6123,-104.8799],
+        [40.7834,-73.9663],
+        [41.85,-87.65],
+        [42.2794,-83.784],
+        [42.3584,-71.0598],
+        [42.362,-71.083],
+        [47.6062,-122.3321],
+        [47.6174,-122.1426],
+        [48.3043,16.3614],
+        [48.8534,2.3488],
+        [50.1137,8.7119],
+        [51.5085,-0.1257],
+        [52.374,4.8897],
+        ]).addTo(map);
+      polygon.bindPopup("<b>AS2914</b><br />NTT-COMMUNICATIONS-2914<br />Area of Operation");
+      circle.bindPopup("<b>AS2914</b><br />NTT-COMMUNICATIONS-2914 ").openPopup();
+
+    </script>
+  </body>
+</html>
