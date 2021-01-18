@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    
+    
+    
+    <style>
+      html, body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      #mapid {
+        // configure the size of the map 
+        width: 100%;
+        height: 100%;
+      } 
+
+    </style>
+  </head>
+  <body>
+    <div id="mapid"></div>
+    <script>
+      // initialize Leaflet
+
+      var map = L.map('mapid').setView([-26.1625, 28.165750000000003], 12);
+      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox/streets-v11',
+      tileSize: 512,
+      zoomOffset: -1,
+      accessToken: 'pk.eyJ1IjoicGF1bG1hYzU3IiwiYSI6ImNrY3AwMXU3azAxb3Yycm1nOWJjMWwxeW8ifQ.CMYqmZyOXntGEoI1X01_vw'
+      }).addTo(map);
+    
+
+      // show the scale bar on the lower left corner
+      L.control.scale().addTo(map);
+
+      var featureGroup = L.featureGroup();
+      featureGroup.bindPopup("Feature Group");
+
+      // show AS on the map
+      var circle1000492 = L.circle([-26.1415,28.2015], { color: 'green', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle1000492.bindPopup("<b>Probe 1000492</b><br />AS 327849<br />169.255.0.135<br />Hops: 5 ");
+      //circle1000492.on('click', function(e) {featureGroup.addTo(map);} )
+
+      
+      var circle_1000492_1 = L.circle([-26.031497,27.9598638], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 });
+      circle_1000492_1.bindPopup("<b>Probe 1000492_1</b><br />AS 327849<br />169.255.0.129<br />Address: 189 Olympic Duel Ave,  Randburg ");
+      circle_1000492_1.addTo(featureGroup);
+      
+
+      var latlng_1000492_1 = [ [-26.1415, 28.2015],[-26.031497, 27.9598638] ] ;
+      var pline_1000492_1 = L.polyline(latlng_1000492_1, {color: 'red'}).addTo(map);
+      pline_1000492_1.addTo(featureGroup);
+
+      var circle_1000492_2 = L.circle([-26.031497,27.9598638], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 });
+      circle_1000492_2.bindPopup("<b>Probe 1000492_2</b><br />AS 327849<br />169.255.0.225<br />Address: 189 Olympic Duel Ave,  Randburg ");
+      circle_1000492_2.addTo(featureGroup);
+
+      var latlng_1000492_2 = [ [-26.031497, 27.9598638],[-26.031497, 27.9598638] ] ;
+      var pline_1000492_2 = L.polyline(latlng_1000492_2, {color: 'red'});
+      pline_1000492_1.addTo(featureGroup);
+
+      var circle_1000492_3 = L.circle([-26.0820328,27.9834361], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 });
+      circle_1000492_3.bindPopup("<b>Probe 1000492_3</b><br />AS not announced<br />196.60.8.247<br />Address: 90 Oxford St, Randburg ");
+      circle_1000492_2.addTo(featureGroup);
+
+      var latlng_1000492_3 = [ [-26.031497, 27.9598638],[-26.0820328, 27.9834361] ] ;
+      var pline_1000492_3 = L.polyline(latlng_1000492_3, {color: 'red'});
+      pline_1000492_3.addTo(featureGroup);
+
+      var circle_1000492_4 = L.circle([-26.0820328,27.9834361], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 });
+      circle_1000492_4.bindPopup("<b>Probe 1000492_4</b><br />AS 327750<br />154.126.200.13<br />Address: 90 Oxford St, Randburg ");
+      circle_1000492_4.addTo(featureGroup);
+
+      var latlng_1000492_4 = [ [-26.0820328, 27.9834361],[-26.0820328, 27.9834361] ] ;
+      var pline_1000492_4 = L.polyline(latlng_1000492_4, {color: 'red'});
+      pline_1000492_4.addTo(featureGroup);
+
+      var circle_1000492_5 = L.circle([-26.0820328,27.9834361], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 });
+      circle_1000492_5.bindPopup("<b>Probe 1000492_5</b><br />AS 327750<br />154.126.223.204<br />Address: 90 Oxford St, Randburg ");
+      circle_1000492_5.addTo(featureGroup);
+
+      var latlng_1000492_5 = [ [-26.0820328, 27.9834361],[-26.0820328, 27.9834361] ] ;
+      var pline_1000492_5 = L.polyline(latlng_1000492_5, {color: 'red'});
+      pline_1000492_5.addTo(featureGroup);
+
+      //var featureGroup = L.featureGroup([pline_1000492_5, circle_1000492_5, pline_1000492_4, circle_1000492_4, pline_1000492_3, circle_1000492_3, pline_1000492_2, circle_1000492_2, pline_1000492_1, circle_1000492_1]);
+      
+      
+
+      
+
+      circle1000492.on('click', function(e) {if(map.hasLayer(featureGroup)){
+        map.removeLayer(featureGroup);
+      }
+      else {
+        map.addLayer(featureGroup);
+      };} )
+
+
+      var circle13372 = L.circle([-26.2315,28.0605], { color: 'green', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle13372.bindPopup("<b>Probe 13372</b><br />AS 36692<br />None<br />Hops: 4 ");
+
+      var circle_13372_1 = L.circle([-26.0401337,28.0156861], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle_13372_1.bindPopup("<b>Probe 13372_1</b><br />AS 36692<br />67.215.86.1<br />Address: 15 Georgian Cres W, Sandton ");
+
+      var latlng_13372_1 = [ [-26.2315, 28.0605],[-26.0401337, 28.0156861] ] ;
+      var pline_13372_1 = L.polyline(latlng_13372_1, {color: 'red'}).addTo(map);
+
+      var circle_13372_2 = L.circle([-26.1378706,28.1987166], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle_13372_2.bindPopup("<b>Probe 13372_2</b><br />AS not announced<br />196.60.9.249<br />Address: Teraco IPX, 5 Brewery St, Isando, Kempton Park, 1600, South Africa ");
+
+      var latlng_13372_2 = [ [-26.0401337, 28.0156861],[-26.1378706, 28.1987166] ] ;
+      var pline_13372_2 = L.polyline(latlng_13372_2, {color: 'red'}).addTo(map);
+
+      var circle_13372_3 = L.circle([-26.0820328,27.9834361], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle_13372_3.bindPopup("<b>Probe 13372_3</b><br />AS 327750<br />154.126.202.233<br />Address: 90 Oxford St, Randburg ");
+
+      var latlng_13372_3 = [ [-26.1378706, 28.1987166],[-26.0820328, 27.9834361] ] ;
+      var pline_13372_3 = L.polyline(latlng_13372_3, {color: 'red'}).addTo(map);
+
+      var circle_13372_4 = L.circle([-26.0820328,27.9834361], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle_13372_4.bindPopup("<b>Probe 13372_4</b><br />AS 327750<br />154.126.223.204<br />Address: 90 Oxford St, Randburg ");
+
+      var latlng_13372_4 = [ [-26.0820328, 27.9834361],[-26.0820328, 27.9834361] ] ;
+      var pline_13372_4 = L.polyline(latlng_13372_4, {color: 'red'}).addTo(map);
+
+      var circle29179 = L.circle([-26.1385,28.2005], { color: 'green', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle29179.bindPopup("<b>Probe 29179</b><br />AS 37670<br />41.77.51.6<br />Hops: 4 ");
+
+      var circle_29179_1 = L.circle([-26.11684278,28.1578774], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle_29179_1.bindPopup("<b>Probe 29179_1</b><br />AS 37670<br />41.77.51.1<br />Address: Smart tech centre, 1 Townsend St, Townsend Office Park, Bedfordview ");
+
+      var latlng_29179_1 = [ [-26.1385, 28.2005],[-26.11684278, 28.1578774] ] ;
+      var pline_29179_1 = L.polyline(latlng_29179_1, {color: 'red'}).addTo(map);
+
+      var circle_29179_2 = L.circle([-26.0820328,27.9834361], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle_29179_2.bindPopup("<b>Probe 29179_2</b><br />AS not announced<br />196.60.8.247<br />Address: 90 Oxford St, Randburg ");
+
+      var latlng_29179_2 = [ [-26.11684278, 28.1578774],[-26.0820328, 27.9834361] ] ;
+      var pline_29179_2 = L.polyline(latlng_29179_2, {color: 'red'}).addTo(map);
+
+      var circle_29179_3 = L.circle([-26.0820328,27.9834361], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle_29179_3.bindPopup("<b>Probe 29179_3</b><br />AS 327750<br />154.126.200.13<br />Address: 90 Oxford St, Randburg ");
+
+      var latlng_29179_3 = [ [-26.0820328, 27.9834361],[-26.0820328, 27.9834361] ] ;
+      var pline_29179_3 = L.polyline(latlng_29179_3, {color: 'red'}).addTo(map);
+
+      var circle_29179_4 = L.circle([-26.0820328,27.9834361], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle_29179_4.bindPopup("<b>Probe 29179_4</b><br />AS 327750<br />154.126.223.204<br />Address: 90 Oxford St, Randburg ");
+
+      var latlng_29179_4 = [ [-26.0820328, 27.9834361],[-26.0820328, 27.9834361] ] ;
+      var pline_29179_4 = L.polyline(latlng_29179_4, {color: 'red'}).addTo(map);
+
+      var circle6569 = L.circle([-26.1385,28.2005], { color: 'green', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle6569.bindPopup("<b>Probe 6569</b><br />AS 42473<br />188.172.217.86<br />Hops: 4 ");
+
+      var circle_6569_1 = L.circle([50.9274066,6.966216604297404], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle_6569_1.bindPopup("<b>Probe 6569_1</b><br />AS 42473<br />188.172.217.85<br />Address: Kranhaus 1, 50678 Köln, Germany ");
+
+      var latlng_6569_1 = [ [-26.1385, 28.2005],[50.9274066, 6.966216604297404] ] ;
+      var pline_6569_1 = L.polyline(latlng_6569_1, {color: 'red'}).addTo(map);
+
+      var circle_6569_2 = L.circle([-26.0820328,27.9834361], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle_6569_2.bindPopup("<b>Probe 6569_2</b><br />AS not announced<br />196.60.8.247<br />Address: 90 Oxford St, Randburg ");
+
+      var latlng_6569_2 = [ [50.9274066, 6.966216604297404],[-26.0820328, 27.9834361] ] ;
+      var pline_6569_2 = L.polyline(latlng_6569_2, {color: 'red'}).addTo(map);
+
+      var circle_6569_3 = L.circle([-26.0820328,27.9834361], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle_6569_3.bindPopup("<b>Probe 6569_3</b><br />AS 327750<br />154.126.200.13<br />Address: 90 Oxford St, Randburg ");
+
+      var latlng_6569_3 = [ [-26.0820328, 27.9834361],[-26.0820328, 27.9834361] ] ;
+      var pline_6569_3 = L.polyline(latlng_6569_3, {color: 'red'}).addTo(map);
+
+      var circle_6569_4 = L.circle([-26.0820328,27.9834361], { color: 'blue', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      circle_6569_4.bindPopup("<b>Probe 6569_4</b><br />AS 327750<br />154.126.223.204<br />Address: 90 Oxford St, Randburg ");
+
+      var latlng_6569_4 = [ [-26.0820328, 27.9834361],[-26.0820328, 27.9834361] ] ;
+      var pline_6569_4 = L.polyline(latlng_6569_4, {color: 'red'}).addTo(map);
+
+      
+    </script>
+  </body>
+</html>

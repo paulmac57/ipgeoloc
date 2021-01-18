@@ -6,6 +6,7 @@ from ripe.atlas.cousteau import AtlasLatestRequest, Probe, Measurement
 # Attributes and Methods at https://ripe-atlas-sagan.readthedocs.io/en/latest/types.html
 from ripe.atlas.sagan import Result, PingResult
 from geopy.geocoders import Nominatim
+from html_create import Html_Create 
 geolocator = Nominatim(user_agent="aswindow")
 target_address = "90 Oxford Street, Randburg"   # sample target address
 
@@ -19,9 +20,9 @@ print ("lat is ", location.latitude)
 print ("lon is ", location.longitude)
         
 
-measurements_dict = {}                                        # initialis the measuretments dictionary
+measurements_dict = {}                                        # initialise the measuretments dictionary
 measurements_list = [28110368,]                               # initialise the measurements list
-from html_create import Html_Create 
+
 
 
 for measurement in measurements_list:
