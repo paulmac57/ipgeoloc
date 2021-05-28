@@ -11,11 +11,15 @@ from geopy.geocoders import Nominatim
 geolocator = Nominatim(user_agent="aswindow")
 # A Python library to gather IP address details (ASN, prefix, resource holder, reverse DNS) using the RIPEStat API,
 # with a basic cache to avoid flood of requests and to enhance performances. https://pypi.org/project/ipdetailscache/
+
+
 from pierky.ipdetailscache import IPDetailsCache
 cache = IPDetailsCache()
+
 #cache.UseIXPs()
 #r = cache.GetIPInformation( "193.0.6.139" ) # example use
 #print (r)
+
 target_address = "90 Oxford Street, Randburg"   # sample target address
 
 # Discover the geo cordinates of the target location

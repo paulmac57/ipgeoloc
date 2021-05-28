@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    
+    
+    
+    <style>
+      html, body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      #mapid {
+        // configure the size of the map 
+        width: 100%;
+        height: 100%;
+      } 
+
+    </style>
+  </head>
+  <body>
+    <div id="mapid"></div>
+    <script>
+      // initialize Leaflet
+
+      var map = L.map('mapid').setView([-29.72150000, 31.07850000], 12);
+      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox/streets-v11',
+      tileSize: 512,
+      zoomOffset: -1,
+      accessToken: 'pk.eyJ1IjoicGF1bG1hYzU3IiwiYSI6ImNrY3AwMXU3azAxb3Yycm1nOWJjMWwxeW8ifQ.CMYqmZyOXntGEoI1X01_vw'
+      }).addTo(map);
+    
+
+      // show the scale bar on the lower left corner
+      L.control.scale().addTo(map);
+
+      // show Target probe on the map
+      var circle2 = L.circle([-29.77930000,30.99261000], { color: 'orange', fillColor: 'orange', fillOpacity: 0.5, radius: 10098.000000000251 }).addTo(map);
+      circle2.bindPopup("<b> Estimated Target Location from Last hop Router 169.255.36.69</b><br />AS 61092</b><br />Distance to Target from LHR: 9702.000000000251 ");
+
+      var circle2 = L.circle([-29.77930000,30.99261000], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 496.00000000000034 }).addTo(map);
+      circle2.bindPopup("<b> Estimated Last Hop Router Location</b><br />IXP IP:196.223.30.172</b><br />LHR IP: 169.255.38.2</b><br />AS 61092</b><br />Distance to LHR from IXP: 396.00000000000034 ");
+
+      var circle1 = L.circle([-29.72150000,31.07850000], { color: 'green', fillColor: '#8000000', fillOpacity: 0.5, radius: 1000 }).addTo(map);
+      circle1.bindPopup("<b> Actual Target Location 169.255.36.69</b><br />Probe 50322</b><br />AS 61092 Distance to last hop: 9702.000000000251 ");
+
+      var circle_i1 = L.circle([-33.97120000,18.46490000], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 100 }).addTo(map);
+      circle_i1.bindPopup("<b>IXP NAPAFRICA (CT1)</b><br /> Great Westerford Building Rondebosch ");
+
+      var circle_i2 = L.circle([-26.13800000,28.19802000], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 100 }).addTo(map);
+      circle_i2.bindPopup("<b>IXP NAPAFRICA (JHB)</b><br /> 5 Brewery St Isando ");
+
+      var circle_i3 = L.circle([-29.77930000,30.99261000], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 100 }).addTo(map);
+      circle_i3.bindPopup("<b>IXP NAPAFRICA (DB1)</b><br /> Riverhorse Close RiverHorse Valley ");
+
+      var circle_i4 = L.circle([-26.14667000,28.03705000], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 100 }).addTo(map);
+      circle_i4.bindPopup("<b>IXP JINX (PKL)</b><br /> Parklands 7 & 8 Keyes Avenue ");
+
+      var circle_i5 = L.circle([-33.97120000,18.46490000], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 100 }).addTo(map);
+      circle_i5.bindPopup("<b>IXP CINX (NLS)</b><br /> Great Westerford Building Rondebosch ");
+
+      var circle_i6 = L.circle([-29.77930000,30.99261000], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 100 }).addTo(map);
+      circle_i6.bindPopup("<b>IXP DINX (RHV)</b><br /> Riverhorse Close RiverHorse Valley ");
+
+      var circle_i7 = L.circle([-26.00965000,28.11884000], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 100 }).addTo(map);
+      circle_i7.bindPopup("<b>IXP JINX (HWH)</b><br /> 401 Old Pretoria Rd. Halfway House ");
+
+      var circle_i8 = L.circle([-25.92803000,28.14177000], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 100 }).addTo(map);
+      circle_i8.bindPopup("<b>IXP JINX (SMR)</b><br /> 21 Landmarks Ave.  ");
+
+      var circle_i9 = L.circle([-26.13701000,28.19754000], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 100 }).addTo(map);
+      circle_i9.bindPopup("<b>IXP JINX (ISO)</b><br /> 5 Brewery Lane.  ");
+
+      var circle_i10 = L.circle([-34.03650000,18.47815000], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 100 }).addTo(map);
+      circle_i10.bindPopup("<b>IXP CINX (DPR)</b><br /> 112-155 De Waal Rd. Southfield ");
+
+      var circle_i11 = L.circle([-33.91694000,18.42258000], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 100 }).addTo(map);
+      circle_i11.bindPopup("<b>IXP CINX (BRE)</b><br /> 34 Bree St  ");
+
+      var circle_i12 = L.circle([-29.74863000,31.04686000], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 100 }).addTo(map);
+      circle_i12.bindPopup("<b>IXP DINX (UMH)</b><br /> 314/317 Umhlanga Rocks Drive Umhlanga ");
+
+    </script>
+  </body>
+</html>

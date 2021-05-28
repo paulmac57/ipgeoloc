@@ -1,0 +1,1080 @@
+{'target_probe': 1000484, 'target_lat': Decimal('-33.90050000'), 'target_lon': Decimal('18.63150000'), 'target_asn': 328137, 'target_ip': '160.119.236.94', 'target_isanchor': 0,
+    1000237: {'lat': Decimal('-25.92950000'), 'lon': Decimal('28.13850000'), 'asn': 7489, 'ip': '196.61.64.64', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 4, 'last_router_hop': 7, 'ixp_to_target_time': 20.343999999999998, 'ixp_to_last_router_time': 20.942999999999998,
+        1: {'rtt': 0.027, 'hostname': 'v8.jnb01.hostus.us', 'prefix': '129.232.128.0/17', 'ip': '129.232.223.26', 'ip_id': 9, 'est_hop_distance_to_source': 2673.0
+        }, 'total_hops': 8,
+        2: {'rtt': 1.504, 'hostname': '', 'prefix': '197.189.192.0/19', 'ip': '197.189.193.33', 'ip_id': 264, 'est_hop_distance_to_source': 148896.0
+        },
+        3: {'rtt': 0.314, 'hostname': '', 'prefix': '197.189.192.0/19', 'ip': '197.189.193.3', 'ip_id': 265, 'est_hop_distance_to_source': 31086.0
+        },
+        4: {'rtt': 0.289, 'hostname': 'websquad.jinx.net.za', 'prefix': '196.223.14.138', 'ip': '196.223.14.138', 'ip_id': 391, 'est_hop_distance_to_source': 28610.999999999996
+        },# Lets do Speed of light sense checks to the target from each facilty see if we can narrow it down
+
+
+        5: {'rtt': 19.699, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 1950201.0000000002
+        },
+        6: {'rtt': 2# Lets do Speed of light sense checks to the target from each facilty see if we can narrow it down
+
+            1.178, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2096622.0
+        },
+        7: {'rtt': 21.232, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2101968.0
+        },
+        8: {'rtt': 20.633, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2042667.0
+        }, 'target_to_last_router_time': -0.5990000000000002
+    },
+    1000327: {'lat': Decimal('-22.55950000'), 'lon': Decimal('17.06850000'), 'asn': 33763, 'ip': '160.242.14.157', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 5,# Lets do Speed of light sense checks to the target from each facilty see if we can narrow it down
+
+        'last_router_hop': 8, 'ixp_to_target_time': 40.842, 'ixp_to_last_router_time': 11.520000000000003,
+        1: {'rtt': 1.451, 'hostname': '', 'prefix': '', 'ip': '192.168.1.1', 'ip_id': 396, 'est_hop_distance_to_source': 143649.0
+        }, 'total_hops': 9,
+        2: {'rtt': 30.816, 'hostname': '', 'prefix': '', 'ip': '10.152.7.17', 'ip_id': 397, 'est_hop_distance_to_source': 3050784.0
+        },
+        3: {'rtt': 35.908, 'hostname': 'unknown', 'prefix': '160.242.0.0/20', 'ip': '160.242.8.34', 'ip_id': 4, 'est_hop_distance_to_source': 3554892.0
+        },
+        4: {'rtt': 56.497, 'hostname': '', 'prefix': '160.242.0.0/20', 'ip': '160.242.1.177', 'ip_id': 5, 'est_hop_distance_to_source': 5593203.0
+        },
+        5: {'rtt': 49.303, 'hostname': 'websquad.ixp.joburg', 'prefix': '196.60.9.37', 'ip': '196.60.9.37', 'ip_id': 398, 'est_hop_distance_to_source': 4880997.0
+        },
+        6: {'rtt': 73.529, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 7279371.0
+        },
+        7: {'rtt': 68.936, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 6824664.000000001
+        },
+        8: {'rtt': 60.823, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 6021477.0
+        },
+        9: {'rtt': 90.145, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 8924355.0
+        }, 'target_to_last_router_time': 29.321999999999996
+    },
+    1000492: {'lat': Decimal('-26.14150000'), 'lon': Decimal('28.20150000'), 'asn': 327849, 'ip': '169.255.0.135', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 3, 'last_router_hop': 6, 'ixp_to_target_time': 22.323999999999998, 'ixp_to_last_router_time': 22.933999999999997,
+        1: {'rtt': 0.16, 'hostname': '169-255-0-129.pool.rocketnet.co.za', 'prefix': '169.255.0.0/23', 'ip': '169.255.0.129', 'ip_id': 17, 'est_hop_distance_to_source': 15840.0
+        }, 'total_hops': 7,
+        2: {'rtt': 0.194, 'hostname': '', 'prefix': '169.255.0.0/23', 'ip': '169.255.0.225', 'ip_id': 18, 'est_hop_distance_to_source': 19206.0
+        },
+        3: {'rtt': 0.332, 'hostname': 'websquad.ixp.joburg', 'prefix': '196.60.9.37', 'ip': '196.60.9.37', 'ip_id': 398, 'est_hop_distance_to_source': 32868.0
+        },
+        4: {'rtt': 21.899, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.118', 'ip_id': 399, 'est_hop_distance_to_source': 2168001.0
+        },
+        5: {'rtt': 23.379, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2314521.0
+        },
+        6: {'rtt': 23.266, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2303334.0
+        },
+        7: {'rtt': 22.656, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2242944.0
+        }, 'target_to_last_router_time': -0.6099999999999994
+    },
+    1000707: {'lat': Decimal('-33.91950000'), 'lon': Decimal('18.41750000'), 'asn': 16509, 'ip': '13.244.74.202', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 16, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 20.665, 'hostname': 'ec2-13-244-0-133.af-south-1.compute.amazonaws.com', 'prefix': '13.244.0.0/15', 'ip': '13.244.0.133', 'ip_id': 19, 'est_hop_distance_to_source': 2045835.0
+        }, 'total_hops': 17,
+        2: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        },
+        3: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        },
+        4: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        },
+        5: {'rtt': 0.46, 'hostname': 'unknown', 'prefix': '100.65.0.65', 'ip': '100.65.0.65', 'ip_id': 400, 'est_hop_distance_to_source': 45540.0
+        },
+        6: {'rtt': 1.689, 'hostname': 'unknown', 'prefix': '150.222.93.217', 'ip': '150.222.93.217', 'ip_id': 401, 'est_hop_distance_to_source': 167211.0
+        },
+        7: {'rtt': 1.482, 'hostname': 'unknown', 'prefix': '150.222.94.100', 'ip': '150.222.94.100', 'ip_id': 402, 'est_hop_distance_to_source': 146718.0
+        },
+        8: {'rtt': 7.885, 'hostname': 'unknown', 'prefix': '150.222.94.89', 'ip': '150.222.94.89', 'ip_id': 403, 'est_hop_distance_to_source': 780615.0
+        },
+        9: {'rtt': 2.035, 'hostname': 'unknown', 'prefix': '100.91.226.252', 'ip': '100.91.226.252', 'ip_id': 404, 'est_hop_distance_to_source': 201465.0
+        },
+        10: {'rtt': 1.664, 'hostname': 'unknown', 'prefix': '52.93.132.129', 'ip': '52.93.132.129', 'ip_id': 405, 'est_hop_distance_to_source': 164736.0
+        },
+        11: {'rtt': 2.801, 'hostname': 'unknown', 'prefix': '52.93.57.128', 'ip': '52.93.57.128', 'ip_id': 406, 'est_hop_distance_to_source': 277299.0
+        },
+        12: {'rtt': 1.095, 'hostname': 'unknown', 'prefix': '52.93.57.121', 'ip': '52.93.57.121', 'ip_id': 407, 'est_hop_distance_to_source': 108405.0
+        },
+        13: {'rtt': 1.042, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 103158.0
+        },
+        14: {'rtt': 1.11, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 109890.00000000001
+        },
+        15: {'rtt': 2.569, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 254331.0
+        },
+        16: {'rtt': 4.472, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 442728.00000000006
+        },
+        17: {'rtt': 1.842, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 182358.0
+        }, 'target_to_last_router_time': -2.6300000000000003
+    },
+    1000825: {'lat': Decimal('-26.10050000'), 'lon': Decimal('27.94850000'), 'asn': 11845, 'ip': '102.39.1.41', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 0, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0
+    },
+    12207: {'lat': Decimal('-29.72950000'), 'lon': Decimal('31.08750000'), 'asn': 3741, 'ip': '196.37.104.121', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 6, 'last_router_hop': 11, 'ixp_to_target_time': 18.475, 'ixp_to_last_router_time': 19.361,
+        1: {'rtt': 0.823, 'hostname': 'unknown', 'prefix': '196.37.0.0/16', 'ip': '196.37.104.3', 'ip_id': 34, 'est_hop_distance_to_source': 81477.0
+        }, 'total_hops': 12,
+        2: {'rtt': 0.978, 'hostname': '', 'prefix': '168.209.0.0/16', 'ip': '168.209.93.204', 'ip_id': 35, 'est_hop_distance_to_source': 96822.0
+        },
+        3: {'rtt': 10.549, 'hostname': '', 'prefix': '168.209.0.0/16', 'ip': '168.209.0.178', 'ip_id': 36, 'est_hop_distance_to_source': 1044351.0
+        },
+        4: {'rtt': 10.577, 'hostname': '', 'prefix': '168.209.0.0/16', 'ip': '168.209.0.166', 'ip_id': 413, 'est_hop_distance_to_source': 1047123.0
+        },
+        5: {'rtt': 10.157, 'hostname': '', 'prefix': '196.26.0.0/16', 'ip': '196.26.0.130', 'ip_id': 414, 'est_hop_distance_to_source': 1005543.0
+        },
+        6: {'rtt': 12.058, 'hostname': 'networkplatforms.ixp.joburg', 'prefix': '196.60.8.185', 'ip': '196.60.8.185', 'ip_id': 415, 'est_hop_distance_to_source': 1193742.0
+        },
+        7: {'rtt': 11.412, 'hostname': '162-64-148-197.as37497.za.net', 'prefix': '197.148.64.0/21', 'ip': '197.148.64.162', 'ip_id': 411, 'est_hop_distance_to_source': 1129788.0
+        },
+        8: {'rtt': 29.838, 'hostname': '', 'prefix': '197.148.64.0/21', 'ip': '197.148.71.6', 'ip_id': 412, 'est_hop_distance_to_source': 2953962.0
+        },
+        9: {'rtt': 29.826, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2952774.0
+        },
+        10: {'rtt': 31.119, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 3080781.0
+        },
+        11: {'rtt': 31.419, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 3110481.0
+        },
+        12: {'rtt': 30.533, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 3022767.0
+        }, 'target_to_last_router_time': -0.8859999999999992
+    },
+    12465: {'lat': Decimal('-33.92050000'), 'lon': Decimal('18.42050000'), 'asn': 3741, 'ip': '196.33.14.6', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 3, 'last_router_hop': 6, 'ixp_to_target_time': 0.729, 'ixp_to_last_router_time': 1.642,
+        1: {'rtt': 0.747, 'hostname': 'csw4-ctn-vl2003.ip.isnet.net', 'prefix': '196.33.0.0/16', 'ip': '196.33.14.3', 'ip_id': 40, 'est_hop_distance_to_source': 73953.0
+        }, 'total_hops': 7,
+        2: {'rtt': 1.063, 'hostname': '', 'prefix': '168.209.0.0/16', 'ip': '168.209.2.130', 'ip_id': 416, 'est_hop_distance_to_source': 105237.0
+        },
+        3: {'rtt': 0.805, 'hostname': 'unknown', 'prefix': '196.10.140.41', 'ip': '196.10.140.41', 'ip_id': 417, 'est_hop_distance_to_source': 79695.0
+        },
+        4: {'rtt': 0.755, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 74745.0
+        },
+        5: {'rtt': 2.175, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 215324.99999999997
+        },
+        6: {'rtt': 2.447, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 242253.0
+        },
+        7: {'rtt': 1.534, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 151866.0
+        }, 'target_to_last_router_time': -0.913
+    },
+    12956: {'lat': Decimal('-25.72950000'), 'lon': Decimal('28.21950000'), 'asn': 37457, 'ip': '102.250.6.107', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 0, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0
+    },
+    13269: {'lat': Decimal('-24.65850000'), 'lon': Decimal('25.91050000'), 'asn': 14988, 'ip': '168.167.253.40', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 7, 'last_router_hop': 10, 'ixp_to_target_time': 27.908, 'ixp_to_last_router_time': 23.65,
+        1: {'rtt': 0.516, 'hostname': 'gbe-msu1-fw.btc.net.bw', 'prefix': '168.167.253.0/24', 'ip': '168.167.253.33', 'ip_id': 47, 'est_hop_distance_to_source': 51084.0
+        }, 'total_hops': 11,
+        2: {'rtt': 1.07, 'hostname': 'gbe-msu1-dr2.btc.net.bw', 'prefix': '168.167.3.0/24', 'ip': '168.167.3.1', 'ip_id': 48, 'est_hop_distance_to_source': 105930.0
+        },
+        3: {'rtt': 0.712, 'hostname': '', 'prefix': '168.167.3.0/24', 'ip': '168.167.3.99', 'ip_id': 49, 'est_hop_distance_to_source': 70488.0
+        },
+        4: {'rtt': 1.26, 'hostname': 'unknown', 'prefix': '41.191.216.0/23', 'ip': '41.191.216.125', 'ip_id': 50, 'est_hop_distance_to_source': 124740.0
+        },
+        5: {'rtt': 10.275, 'hostname': 'unknown', 'prefix': '41.191.216.0/22', 'ip': '41.191.219.217', 'ip_id': 51, 'est_hop_distance_to_source': 1017225.0
+        },
+        6: {'rtt': 10.424, 'hostname': '', 'prefix': '41.191.216.0/22', 'ip': '41.191.219.216', 'ip_id': 52, 'est_hop_distance_to_source': 1031976.0
+        },
+        7: {'rtt': 9.01, 'hostname': 'websquad.ixp.joburg', 'prefix': '196.60.9.37', 'ip': '196.60.9.37', 'ip_id': 398, 'est_hop_distance_to_source': 891990.0
+        },
+        8: {'rtt': 29.909, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.118', 'ip_id': 399, 'est_hop_distance_to_source': 2960991.0
+        },
+        9: {'rtt': 31.906, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 3158694.0
+        },
+        10: {'rtt': 32.66, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 3233339.9999999995
+        },
+        11: {'rtt': 36.918, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 3654882.0
+        }, 'target_to_last_router_time': 4.258000000000003
+    },
+    13720: {'lat': Decimal('-33.94250000'), 'lon': Decimal('18.46850000'), 'asn': 22355, 'ip': '196.1.58.54', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 7, 'last_router_hop': 10, 'ixp_to_target_time': 0.7299999999999999, 'ixp_to_last_router_time': 1.8079999999999998,
+        1: {'rtt': 0.405, 'hostname': '', 'prefix': '', 'ip': '10.10.10.1', 'ip_id': 424, 'est_hop_distance_to_source': 40095.0
+        }, 'total_hops': 11,
+        2: {'rtt': 0.593, 'hostname': 'cpt-pe-r3-gi0-0-100.frogfoot.net', 'prefix': '41.206.192.0/19', 'ip': '41.206.197.125', 'ip_id': 425, 'est_hop_distance_to_source': 58707.0
+        },
+        3: {'rtt': 0.991, 'hostname': '', 'prefix': '41.206.192.0/19', 'ip': '41.206.192.235', 'ip_id': 426, 'est_hop_distance_to_source': 98109.0
+        },
+        4: {'rtt': 0.862, 'hostname': '', 'prefix': '196.1.56.0/21', 'ip': '196.1.56.99', 'ip_id': 427, 'est_hop_distance_to_source': 85338.0
+        },
+        5: {'rtt': 1.093, 'hostname': '', 'prefix': '41.85.0.0/20', 'ip': '41.85.0.197', 'ip_id': 428, 'est_hop_distance_to_source': 108207.0
+        },
+        6: {'rtt': 0.787, 'hostname': '', 'prefix': '41.85.0.0/20', 'ip': '41.85.0.58', 'ip_id': 429, 'est_hop_distance_to_source': 77913.0
+        },
+        7: {'rtt': 0.801, 'hostname': 'unknown', 'prefix': '196.10.140.41', 'ip': '196.10.140.41', 'ip_id': 417, 'est_hop_distance_to_source': 79299.0
+        },
+        8: {'rtt': 0.752, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 74448.0
+        },
+        9: {'rtt': 2.113, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 209187.0
+        },
+        10: {'rtt': 2.609, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 258291.0
+        },
+        11: {'rtt': 1.531, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 151569.0
+        }, 'target_to_last_router_time': -1.078
+    },
+    13727: {'lat': Decimal('-25.96950000'), 'lon': Decimal('32.57850000'), 'asn': 30619, 'ip': '41.220.165.11', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 0, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0
+    },
+    13728: {'lat': Decimal('-29.10850000'), 'lon': Decimal('26.21850000'), 'asn': 3741, 'ip': '197.96.247.130', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 5, 'last_router_hop': 10, 'ixp_to_target_time': 14.373000000000001, 'ixp_to_last_router_time': 15.105999999999998,
+        1: {'rtt': 0.509, 'hostname': 'unknown', 'prefix': '197.96.0.0/13', 'ip': '197.96.247.129', 'ip_id': 72, 'est_hop_distance_to_source': 50391.0
+        }, 'total_hops': 11,
+        2: {'rtt': 5.716, 'hostname': '', 'prefix': '168.209.0.0/16', 'ip': '168.209.86.218', 'ip_id': 73, 'est_hop_distance_to_source': 565884.0
+        },
+        3: {'rtt': 5.844, 'hostname': '', 'prefix': '168.209.0.0/16', 'ip': '168.209.86.217', 'ip_id': 106, 'est_hop_distance_to_source': 578556.0
+        },
+        4: {'rtt': 5.194, 'hostname': '', 'prefix': '168.209.0.0/16', 'ip': '168.209.1.170', 'ip_id': 254, 'est_hop_distance_to_source': 514206.0
+        },
+        5: {'rtt': 5.977, 'hostname': 'networkplatforms.jinx.net.za', 'prefix': '196.223.14.86', 'ip': '196.223.14.86', 'ip_id': 410, 'est_hop_distance_to_source': 591723.0
+        },
+        6: {'rtt': 6.168, 'hostname': '162-64-148-197.as37497.za.net', 'prefix': '197.148.64.0/21', 'ip': '197.148.64.162', 'ip_id': 411, 'est_hop_distance_to_source': 610632.0
+        },
+        7: {'rtt': 19.619, 'hostname': '', 'prefix': '197.148.64.0/21', 'ip': '197.148.71.6', 'ip_id': 412, 'est_hop_distance_to_source': 1942281.0
+        },
+        8: {'rtt': 19.653, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 1945646.9999999998
+        },
+        9: {'rtt': 20.945, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2073555.0
+        },
+        10: {'rtt': 21.083, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2087216.9999999998
+        },
+        11: {'rtt': 20.35, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2014650.0000000002
+        }, 'target_to_last_router_time': -0.732999999999997
+    },
+    13746: {'lat': Decimal('-33.88950000'), 'lon': Decimal('18.62950000'), 'asn': 328137, 'ip': '160.119.236.94', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 0, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.268, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 26532.0
+        }, 'total_hops': 1
+    },
+    13754: {'lat': Decimal('-33.93050000'), 'lon': Decimal('18.41950000'), 'asn': 36874, 'ip': '196.41.102.102', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 8, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.354, 'hostname': '', 'prefix': '', 'ip': '192.168.1.1', 'ip_id': 396, 'est_hop_distance_to_source': 35046.0
+        }, 'total_hops': 9,
+        2: {'rtt': 0.52, 'hostname': '101.102.41.196.lightspeed.co.za', 'prefix': '196.41.96.0/20', 'ip': '196.41.102.101', 'ip_id': 76, 'est_hop_distance_to_source': 51480.0
+        },
+        3: {'rtt': 0.752, 'hostname': '', 'prefix': '196.41.96.0/20', 'ip': '196.41.96.182', 'ip_id': 77, 'est_hop_distance_to_source': 74448.0
+        },
+        4: {'rtt': 0.868, 'hostname': '', 'prefix': '105.233.0.0/17', 'ip': '105.233.17.182', 'ip_id': 309, 'est_hop_distance_to_source': 85932.0
+        },
+        5: {'rtt': 0.816, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 80784.0
+        },
+        6: {'rtt': 0.818, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 80982.0
+        },
+        7: {'rtt': 2.206, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 218394.0
+        },
+        8: {'rtt': 2.203, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 218096.99999999997
+        },
+        9: {'rtt': 1.619, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 160281.0
+        }, 'target_to_last_router_time': -0.5839999999999999
+    },
+    13788: {'lat': Decimal('-25.97850000'), 'lon': Decimal('32.59150000'), 'asn': 42235, 'ip': '197.242.165.2', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 7, 'last_router_hop': 12, 'ixp_to_target_time': 18.732999999999997, 'ixp_to_last_router_time': 22.411,
+        1: {'rtt': 0.387, 'hostname': 'unknown', 'prefix': '197.242.160.0/20', 'ip': '197.242.165.1', 'ip_id': 79, 'est_hop_distance_to_source': 38313.0
+        }, 'total_hops': 13,
+        2: {'rtt': 0.558, 'hostname': '', 'prefix': '168.209.0.0/16', 'ip': '168.209.160.229', 'ip_id': 80, 'est_hop_distance_to_source': 55242.00000000001
+        },
+        3: {'rtt': 0.509, 'hostname': '', 'prefix': '168.209.0.0/16', 'ip': '168.209.160.228', 'ip_id': 81, 'est_hop_distance_to_source': 50391.0
+        },
+        4: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        },
+        5: {'rtt': 20.036, 'hostname': '', 'prefix': '168.209.0.0/16', 'ip': '168.209.224.248', 'ip_id': 82, 'est_hop_distance_to_source': 1983564.0000000002
+        },
+        6: {'rtt': 17.828, 'hostname': '', 'prefix': '168.209.0.0/16', 'ip': '168.209.1.179', 'ip_id': 33, 'est_hop_distance_to_source': 1764972.0
+        },
+        7: {'rtt': 18.847, 'hostname': 'networkplatforms.ixp.joburg', 'prefix': '196.60.8.185', 'ip': '196.60.8.185', 'ip_id': 415, 'est_hop_distance_to_source': 1865853.0000000002
+        },
+        8: {'rtt': 20.278, 'hostname': '162-64-148-197.as37497.za.net', 'prefix': '197.148.64.0/21', 'ip': '197.148.64.162', 'ip_id': 411, 'est_hop_distance_to_source': 2007521.9999999998
+        },
+        9: {'rtt': 39.113, 'hostname': '', 'prefix': '197.148.64.0/21', 'ip': '197.148.71.6', 'ip_id': 412, 'est_hop_distance_to_source': 3872187.0
+        },
+        10: {'rtt': 37.703, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 3732597.0000000005
+        },
+        11: {'rtt': 40.165, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 3976335.0
+        },
+        12: {'rtt': 41.258, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 4084542.0000000005
+        },
+        13: {'rtt': 37.58, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 3720420.0
+        }, 'target_to_last_router_time': -3.6780000000000044
+    },
+    13888: {'lat': Decimal('-26.13850000'), 'lon': Decimal('28.20150000'), 'asn': 15022, 'ip': '197.255.144.18', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 3, 'last_router_hop': 6, 'ixp_to_target_time': 20.304000000000002, 'ixp_to_last_router_time': 20.958000000000002,
+        1: {'rtt': 0.787, 'hostname': 'bb0.ter.jhb.adept.za.net', 'prefix': '197.255.144.0/23', 'ip': '197.255.144.17', 'ip_id': 430, 'est_hop_distance_to_source': 77913.0
+        }, 'total_hops': 7,
+        2: {'rtt': 0.361, 'hostname': '', 'prefix': '197.255.144.0/23', 'ip': '197.255.144.150', 'ip_id': 431, 'est_hop_distance_to_source': 35739.0
+        },
+        3: {'rtt': 1.188, 'hostname': 'websquad.jinx.net.za', 'prefix': '196.223.14.138', 'ip': '196.223.14.138', 'ip_id': 391, 'est_hop_distance_to_source': 117612.0
+        },
+        4: {'rtt': 20.709, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2050191.0
+        },
+        5: {'rtt': 22.991, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2276109.0
+        },
+        6: {'rtt': 22.146, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2192454.0
+        },
+        7: {'rtt': 21.492, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2127708.0
+        }, 'target_to_last_router_time': -0.6539999999999999
+    },
+    14384: {'lat': Decimal('-34.00050000'), 'lon': Decimal('25.53150000'), 'asn': 37611, 'ip': '165.255.36.195', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 10, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.412, 'hostname': '', 'prefix': '', 'ip': '192.168.20.1', 'ip_id': 433, 'est_hop_distance_to_source': 40788.0
+        }, 'total_hops': 11,
+        2: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        },
+        3: {'rtt': 12.934, 'hostname': '165-73-14-113.ip.afrihost.co.za', 'prefix': '165.73.14.0/24', 'ip': '165.73.14.113', 'ip_id': 91, 'est_hop_distance_to_source': 1280466.0
+        },
+        4: {'rtt': 10.524, 'hostname': '', 'prefix': '169.0.0.0/15', 'ip': '169.1.21.149', 'ip_id': 315, 'est_hop_distance_to_source': 1041875.9999999999
+        },
+        5: {'rtt': 10.402, 'hostname': '169-1-21-2.ip.afrihost.co.za', 'prefix': '169.0.0.0/15', 'ip': '169.1.21.2', 'ip_id': 92, 'est_hop_distance_to_source': 1029797.9999999999
+        },
+        6: {'rtt': 10.432, 'hostname': '', 'prefix': '169.0.0.0/15', 'ip': '169.1.21.3', 'ip_id': 93, 'est_hop_distance_to_source': 1032768.0
+        },
+        7: {'rtt': 10.347, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 1024353.0
+        },
+        8: {'rtt': 10.336, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 1023264.0
+        },
+        9: {'rtt': 12.66, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 1253340.0
+        },
+        10: {'rtt': 11.877, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 1175823.0
+        },
+        11: {'rtt': 10.703, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 1059597.0
+        }, 'target_to_last_router_time': -1.1740000000000013
+    },
+    14465: {'lat': Decimal('-22.57050000'), 'lon': Decimal('17.08050000'), 'asn': 37513, 'ip': '196.216.164.50', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 5, 'last_router_hop': 8, 'ixp_to_target_time': 21.531, 'ixp_to_last_router_time': 23.991,
+        1: {'rtt': 2.056, 'hostname': 'unknown', 'prefix': '196.216.164.0/24', 'ip': '196.216.164.1', 'ip_id': 434, 'est_hop_distance_to_source': 203544.0
+        }, 'total_hops': 9,
+        2: {'rtt': 0.456, 'hostname': 'unknown', 'prefix': '196.12.10.0/24', 'ip': '196.12.10.246', 'ip_id': 435, 'est_hop_distance_to_source': 45144.0
+        },
+        3: {'rtt': 0.688, 'hostname': 'unknown', 'prefix': '160.242.96.0/21', 'ip': '160.242.100.88', 'ip_id': 97, 'est_hop_distance_to_source': 68112.0
+        },
+        4: {'rtt': 32.056, 'hostname': '', 'prefix': '160.242.0.0/20', 'ip': '160.242.1.177', 'ip_id': 5, 'est_hop_distance_to_source': 3173543.9999999995
+        },
+        5: {'rtt': 28.942, 'hostname': 'websquad.ixp.joburg', 'prefix': '196.60.9.37', 'ip': '196.60.9.37', 'ip_id': 398, 'est_hop_distance_to_source': 2865258.0
+        },
+        6: {'rtt': 49.668, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 4917132.0
+        },
+        7: {'rtt': 48.988, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 4849812.0
+        },
+        8: {'rtt': 52.933, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 5240367.0
+        },
+        9: {'rtt': 50.473, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 4996827.0
+        }, 'target_to_last_router_time': -2.460000000000001
+    },
+    14691: {'lat': Decimal('-25.66250000'), 'lon': Decimal('28.25150000'), 'asn': 37457, 'ip': '105.226.99.173', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 8, 'last_router_hop': 11, 'ixp_to_target_time': 23.278, 'ixp_to_last_router_time': 22.459,
+        1: {'rtt': 0.446, 'hostname': '', 'prefix': '', 'ip': '192.168.5.1', 'ip_id': 436, 'est_hop_distance_to_source': 44154.0
+        }, 'total_hops': 12,
+        2: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        },
+        3: {'rtt': 9.893, 'hostname': '105-187-235-5.telkomsa.net', 'prefix': '105.187.0.0/16', 'ip': '105.187.235.5', 'ip_id': 99, 'est_hop_distance_to_source': 979407.0000000001
+        },
+        4: {'rtt': 3.262, 'hostname': '', 'prefix': '105.187.0.0/16', 'ip': '105.187.235.6', 'ip_id': 100, 'est_hop_distance_to_source': 322938.0
+        },
+        5: {'rtt': 9.014, 'hostname': 'ipc-aggr-2.north.telkomsa.net', 'prefix': '105.228.0.0/16', 'ip': '105.228.0.13', 'ip_id': 101, 'est_hop_distance_to_source': 892385.9999999999
+        },
+        6: {'rtt': 10.805, 'hostname': '', 'prefix': '105.187.0.0/16', 'ip': '105.187.234.102', 'ip_id': 319, 'est_hop_distance_to_source': 1069695.0
+        },
+        7: {'rtt': 10.491, 'hostname': '', 'prefix': '105.187.0.0/16', 'ip': '105.187.234.102', 'ip_id': 319, 'est_hop_distance_to_source': 1038609.0
+        },
+        8: {'rtt': 4.675, 'hostname': 'websquad.ixp.joburg', 'prefix': '196.60.9.37', 'ip': '196.60.9.37', 'ip_id': 398, 'est_hop_distance_to_source': 462825.0
+        },
+        9: {'rtt': 23.831, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2359269.0
+        },
+        10: {'rtt': 24.822, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2457378.0
+        },
+        11: {'rtt': 27.134, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2686266.0
+        },
+        12: {'rtt': 27.953, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2767347.0
+        }, 'target_to_last_router_time': 0.8189999999999991
+    },
+    14968: {'lat': Decimal('-25.96850000'), 'lon': Decimal('32.57050000'), 'asn': 3491, 'ip': '63.223.6.90', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 9, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.522, 'hostname': '63-223-6-89.static.pccwglobal.net', 'prefix': '63.223.6.0/24', 'ip': '63.223.6.89', 'ip_id': 103, 'est_hop_distance_to_source': 51678.0
+        }, 'total_hops': 10,
+        2: {'rtt': 17.017, 'hostname': '', 'prefix': '63.223.48.0/24', 'ip': '63.223.48.21', 'ip_id': 437, 'est_hop_distance_to_source': 1684683.0
+        },
+        3: {'rtt': 16.826, 'hostname': '', 'prefix': '63.223.48.0/24', 'ip': '63.223.48.21', 'ip_id': 437, 'est_hop_distance_to_source': 1665774.0
+        },
+        4: {'rtt': 16.883, 'hostname': '', 'prefix': '41.79.249.0/24', 'ip': '41.79.249.246', 'ip_id': 438, 'est_hop_distance_to_source': 1671417.0
+        },
+        5: {'rtt': 17.118, 'hostname': '162-64-148-197.as37497.za.net', 'prefix': '197.148.64.0/21', 'ip': '197.148.64.162', 'ip_id': 411, 'est_hop_distance_to_source': 1694681.9999999998
+        },
+        6: {'rtt': 36.83, 'hostname': '', 'prefix': '197.148.64.0/21', 'ip': '197.148.71.6', 'ip_id': 412, 'est_hop_distance_to_source': 3646170.0
+        },
+        7: {'rtt': 34.855, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 3450644.9999999995
+        },
+        8: {'rtt': 36.797, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 3642902.9999999995
+        },
+        9: {'rtt': 38.06, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 3767940.0
+        },
+        10: {'rtt': 37.456, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 3708144.0000000005
+        }, 'target_to_last_router_time': -0.6039999999999992
+    },
+    16411: {'lat': Decimal('-26.09250000'), 'lon': Decimal('28.22750000'), 'asn': 37105, 'ip': '197.185.97.99', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 6, 'last_router_hop': 9, 'ixp_to_target_time': -0.004999999999999005, 'ixp_to_last_router_time': 5.356999999999999,
+        1: {'rtt': 0.527, 'hostname': '', 'prefix': '', 'ip': '192.168.8.1', 'ip_id': 439, 'est_hop_distance_to_source': 52173.0
+        }, 'total_hops': 10,
+        2: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        },
+        3: {'rtt': 18.474, 'hostname': '', 'prefix': '', 'ip': '10.11.65.193', 'ip_id': 440, 'est_hop_distance_to_source': 1828926.0
+        },
+        4: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        },
+        5: {'rtt': 27.071, 'hostname': '', 'prefix': '', 'ip': '10.195.18.1', 'ip_id': 441, 'est_hop_distance_to_source': 2680029.0
+        },
+        6: {'rtt': 29.207, 'hostname': 'websquad.jinx.net.za', 'prefix': '196.223.14.138', 'ip': '196.223.14.138', 'ip_id': 391, 'est_hop_distance_to_source': 2891493.0
+        },
+        7: {'rtt': 29.578, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2928222.0
+        },
+        8: {'rtt': 29.671, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2937429.0
+        },
+        9: {'rtt': 34.564, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 3421836.0
+        },
+        10: {'rtt': 29.202, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2890998.0
+        }, 'target_to_last_router_time': -5.361999999999998
+    },
+    16430: {'lat': Decimal('-28.74250000'), 'lon': Decimal('24.76850000'), 'asn': 327750, 'ip': '154.126.223.204', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 8, 'last_router_hop': 11, 'ixp_to_target_time': 23.495, 'ixp_to_last_router_time': 24.135,
+        1: {'rtt': 0.368, 'hostname': '', 'prefix': '', 'ip': '10.18.51.1', 'ip_id': 442, 'est_hop_distance_to_source': 36432.0
+        }, 'total_hops': 12,
+        2: {'rtt': 0.445, 'hostname': '', 'prefix': '', 'ip': '10.15.51.49', 'ip_id': 443, 'est_hop_distance_to_source': 44055.0
+        },
+        3: {'rtt': 7.12, 'hostname': 'unknown', 'prefix': '154.126.192.0/19', 'ip': '154.126.200.34', 'ip_id': 112, 'est_hop_distance_to_source': 704880.0
+        },
+        4: {'rtt': 7.069, 'hostname': '', 'prefix': '154.126.192.0/19', 'ip': '154.126.223.49', 'ip_id': 325, 'est_hop_distance_to_source': 699831.0
+        },
+        5: {'rtt': 7.182, 'hostname': '', 'prefix': '154.126.192.0/19', 'ip': '154.126.208.94', 'ip_id': 444, 'est_hop_distance_to_source': 711018.0
+        },
+        6: {'rtt': 7.343, 'hostname': '', 'prefix': '154.126.192.0/19', 'ip': '154.126.208.93', 'ip_id': 115, 'est_hop_distance_to_source': 726957.0
+        },
+        7: {'rtt': 7.433, 'hostname': '', 'prefix': '154.126.192.0/19', 'ip': '154.126.200.14', 'ip_id': 116, 'est_hop_distance_to_source': 735867.0
+        },
+        8: {'rtt': 7.409, 'hostname': 'websquad.ixp.joburg', 'prefix': '196.60.9.37', 'ip': '196.60.9.37', 'ip_id': 398, 'est_hop_distance_to_source': 733491.0
+        },
+        9: {'rtt': 29.125, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2883375.0
+        },
+        10: {'rtt': 30.425, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 3012075.0
+        },
+        11: {'rtt': 31.544, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 3122856.0
+        },
+        12: {'rtt': 30.904, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 3059496.0
+        }, 'target_to_last_router_time': -0.6400000000000006
+    },
+    16438: {'lat': Decimal('-25.97850000'), 'lon': Decimal('28.03850000'), 'asn': 36937, 'ip': '41.169.129.30', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 14, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.517, 'hostname': '', 'prefix': '', 'ip': '192.168.0.1', 'ip_id': 445, 'est_hop_distance_to_source': 51183.0
+        }, 'total_hops': 15,
+        2: {'rtt': 0.946, 'hostname': 'unknown', 'prefix': '41.160.0.0/12', 'ip': '41.169.129.25', 'ip_id': 118, 'est_hop_distance_to_source': 93654.0
+        },
+        3: {'rtt': 3.263, 'hostname': '', 'prefix': '41.160.0.0/12', 'ip': '41.162.159.252', 'ip_id': 119, 'est_hop_distance_to_source': 323037.0
+        },
+        4: {'rtt': 3.648, 'hostname': '', 'prefix': '41.160.0.0/12', 'ip': '41.171.133.1', 'ip_id': 120, 'est_hop_distance_to_source': 361152.0
+        },
+        5: {'rtt': 5.971, 'hostname': '', 'prefix': '41.160.0.0/12', 'ip': '41.171.132.7', 'ip_id': 121, 'est_hop_distance_to_source': 591129.0
+        },
+        6: {'rtt': 2.985, 'hostname': '', 'prefix': '41.160.0.0/12', 'ip': '41.160.0.244', 'ip_id': 122, 'est_hop_distance_to_source': 295515.0
+        },
+        7: {'rtt': 7.701, 'hostname': '', 'prefix': '41.160.0.0/12', 'ip': '41.160.0.245', 'ip_id': 123, 'est_hop_distance_to_source': 762399.0
+        },
+        8: {'rtt': 4.234, 'hostname': 'be-5-lza.pe2-jhb.liquidtelecom.net', 'prefix': '77.246.56.0/23', 'ip': '77.246.56.248', 'ip_id': 124, 'est_hop_distance_to_source': 419166.0
+        },
+        9: {'rtt': 22.53, 'hostname': 'be-20.lza-p4-jhb.liquidtelecom.net', 'prefix': '41.60.134.0/23', 'ip': '41.60.135.92', 'ip_id': 446, 'est_hop_distance_to_source': 2230470.0
+        },
+        10: {'rtt': 20.862, 'hostname': '', 'prefix': '77.246.56.0/23', 'ip': '77.246.57.38', 'ip_id': 447, 'est_hop_distance_to_source': 2065337.9999999998
+        },
+        11: {'rtt': 20.621, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 2041478.9999999998
+        },
+        12: {'rtt': 20.834, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2062566.0
+        },
+        13: {'rtt': 22.356, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2213244.0
+        },
+        14: {'rtt': 24.547, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2430153.0
+        },
+        15: {'rtt': 32.413, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 3208886.9999999995
+        }, 'target_to_last_router_time': 7.865999999999996
+    },
+    16497: {'lat': Decimal('-25.73950000'), 'lon': Decimal('27.86150000'), 'asn': 11845, 'ip': '197.245.33.73', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 6, 'last_router_hop': 9, 'ixp_to_target_time': 19.554, 'ixp_to_last_router_time': 20.753,
+        1: {'rtt': 0.609, 'hostname': '', 'prefix': '', 'ip': '192.168.101.1', 'ip_id': 448, 'est_hop_distance_to_source': 60291.0
+        }, 'total_hops': 10,
+        2: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        },
+        3: {'rtt': 5.427, 'hostname': 'unknown', 'prefix': '41.193.0.0/16', 'ip': '41.193.164.85', 'ip_id': 44, 'est_hop_distance_to_source': 537273.0
+        },
+        4: {'rtt': 9.651, 'hostname': '', 'prefix': '41.193.0.0/16', 'ip': '41.193.164.86', 'ip_id': 45, 'est_hop_distance_to_source': 955449.0
+        },
+        5: {'rtt': 4.38, 'hostname': '', 'prefix': '41.193.0.0/16', 'ip': '41.193.164.92', 'ip_id': 46, 'est_hop_distance_to_source': 433620.0
+        },
+        6: {'rtt': 5.12, 'hostname': 'websquad.jinx.net.za', 'prefix': '196.223.14.138', 'ip': '196.223.14.138', 'ip_id': 391, 'est_hop_distance_to_source': 506880.0
+        },
+        7: {'rtt': 29.954, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2965446.0
+        },
+        8: {'rtt': 33.516, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 3318084.0
+        },
+        9: {'rtt': 25.873, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2561427.0
+        },
+        10: {'rtt': 24.674, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2442726.0
+        }, 'target_to_last_router_time': -1.1990000000000016
+    },
+    18169: {'lat': Decimal('-33.30850000'), 'lon': Decimal('26.52050000'), 'asn': 37520, 'ip': '146.231.130.254', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 9, 'last_router_hop': 13, 'ixp_to_target_time': 12.399999999999999, 'ixp_to_last_router_time': 12.977999999999998,
+        1: {'rtt': 11.102, 'hostname': 'strubendc.gw.ru.ac.za', 'prefix': '146.231.128.0/18', 'ip': '146.231.130.1', 'ip_id': 129, 'est_hop_distance_to_source': 1099098.0
+        }, 'total_hops': 14,
+        2: {'rtt': 0.823, 'hostname': 'strubencore-datacentres-0.net.ru.ac.za', 'prefix': '146.231.0.0/17', 'ip': '146.231.0.36', 'ip_id': 130, 'est_hop_distance_to_source': 81477.0
+        },
+        3: {'rtt': 1.019, 'hostname': 'strubenedge-strubencore.net.ru.ac.za', 'prefix': '192.42.99.0/24', 'ip': '192.42.99.246', 'ip_id': 131, 'est_hop_distance_to_source': 100880.99999999999
+        },
+        4: {'rtt': 1.153, 'hostname': '', 'prefix': '192.42.99.0/24', 'ip': '192.42.99.253', 'ip_id': 132, 'est_hop_distance_to_source': 114147.0
+        },
+        5: {'rtt': 19.115, 'hostname': '', 'prefix': '155.232.0.0/17', 'ip': '155.232.5.2', 'ip_id': 449, 'est_hop_distance_to_source': 1892384.9999999998
+        },
+        6: {'rtt': 18.89, 'hostname': '', 'prefix': '155.232.0.0/17', 'ip': '155.232.6.10', 'ip_id': 450, 'est_hop_distance_to_source': 1870110.0
+        },
+        7: {'rtt': 18.799, 'hostname': '', 'prefix': '155.232.0.0/17', 'ip': '155.232.6.70', 'ip_id': 451, 'est_hop_distance_to_source': 1861101.0
+        },
+        8: {'rtt': 18.964, 'hostname': '', 'prefix': '155.232.0.0/17', 'ip': '155.232.1.29', 'ip_id': 452, 'est_hop_distance_to_source': 1877435.9999999998
+        },
+        9: {'rtt': 18.568, 'hostname': 'websquad.ixp.durban', 'prefix': '196.10.141.37', 'ip': '196.10.141.37', 'ip_id': 453, 'est_hop_distance_to_source': 1838232.0000000002
+        },
+        10: {'rtt': 27.471, 'hostname': 'core.cr-01.jb1.za.ws.net.za', 'prefix': '160.119.224.0/24', 'ip': '160.119.224.21', 'ip_id': 454, 'est_hop_distance_to_source': 2719629.0
+        },
+        11: {'rtt': 30.364, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 3006036.0
+        },
+        12: {'rtt': 32.253, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 3193047.0
+        },
+        13: {'rtt': 31.546, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 3123054.0
+        },
+        14: {'rtt': 30.968, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 3065832.0
+        }, 'target_to_last_router_time': -0.5779999999999994
+    },
+    18671: {'lat': Decimal('-33.95250000'), 'lon': Decimal('18.49050000'), 'asn': 11845, 'ip': '197.245.176.76', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 9, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.321, 'hostname': '', 'prefix': '', 'ip': '10.0.0.2', 'ip_id': 455, 'est_hop_distance_to_source': 31779.0
+        }, 'total_hops': 10,
+        2: {'rtt': 1.909, 'hostname': 'dsl-197-245-176-1.voxdsl.co.za', 'prefix': '197.245.176.0/24', 'ip': '197.245.176.1', 'ip_id': 140, 'est_hop_distance_to_source': 188991.0
+        },
+        3: {'rtt': 2.011, 'hostname': 'unknown', 'prefix': '196.22.224.0/20', 'ip': '196.22.226.164', 'ip_id': 141, 'est_hop_distance_to_source': 199089.0
+        },
+        4: {'rtt': 0.876, 'hostname': '', 'prefix': '41.193.0.0/16', 'ip': '41.193.55.241', 'ip_id': 142, 'est_hop_distance_to_source': 86724.0
+        },
+        5: {'rtt': 0.881, 'hostname': '', 'prefix': '41.193.0.0/16', 'ip': '41.193.12.180', 'ip_id': 143, 'est_hop_distance_to_source': 87219.0
+        },
+        6: {'rtt': 0.948, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 93852.0
+        },
+        7: {'rtt': 0.925, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 91575.0
+        },
+        8: {'rtt': 2.382, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 235818.0
+        },
+        9: {'rtt': 2.688, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 266112.0
+        },
+        10: {'rtt': 1.685, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 166815.0
+        }, 'target_to_last_router_time': -1.0030000000000001
+    },
+    19048: {'lat': Decimal('-29.85850000'), 'lon': Decimal('30.99950000'), 'asn': 32437, 'ip': '41.223.245.103', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 0, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0
+    },
+    19352: {'lat': Decimal('-34.04150000'), 'lon': Decimal('18.45950000'), 'asn': 11845, 'ip': '41.193.138.174', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 9, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.384, 'hostname': '', 'prefix': '', 'ip': '192.168.88.1', 'ip_id': 456, 'est_hop_distance_to_source': 38016.0
+        }, 'total_hops': 10,
+        2: {'rtt': 1.037, 'hostname': '', 'prefix': '41.193.0.0/16', 'ip': '41.193.120.111', 'ip_id': 148, 'est_hop_distance_to_source': 102662.99999999999
+        },
+        3: {'rtt': 2.587, 'hostname': '', 'prefix': '41.193.0.0/16', 'ip': '41.193.120.110', 'ip_id': 149, 'est_hop_distance_to_source': 256113.00000000003
+        },
+        4: {'rtt': 1.137, 'hostname': '', 'prefix': '41.193.0.0/16', 'ip': '41.193.120.229', 'ip_id': 150, 'est_hop_distance_to_source': 112563.0
+        },
+        5: {'rtt': 1.675, 'hostname': '', 'prefix': '41.193.0.0/16', 'ip': '41.193.120.67', 'ip_id': 457, 'est_hop_distance_to_source': 165825.0
+        },
+        6: {'rtt': 1.115, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 110385.0
+        },
+        7: {'rtt': 1.112, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 110088.00000000001
+        },
+        8: {'rtt': 2.537, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 251163.0
+        },
+        9: {'rtt': 3.231, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 319869.0
+        },
+        10: {'rtt': 2.065, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 204435.0
+        }, 'target_to_last_router_time': -1.166
+    },
+    19550: {'lat': Decimal('-24.63250000'), 'lon': Decimal('25.91950000'), 'asn': 14988, 'ip': '168.167.100.14', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 7, 'last_router_hop': 10, 'ixp_to_target_time': 22.619, 'ixp_to_last_router_time': 22.033,
+        1: {'rtt': 1.113, 'hostname': 'sw3.info.bw', 'prefix': '168.167.100.0/24', 'ip': '168.167.100.42', 'ip_id': 153, 'est_hop_distance_to_source': 110187.0
+        }, 'total_hops': 11,
+        2: {'rtt': 1.122, 'hostname': '', 'prefix': '168.167.100.0/24', 'ip': '168.167.100.41', 'ip_id': 154, 'est_hop_distance_to_source': 111078.00000000001
+        },
+        3: {'rtt': 1.679, 'hostname': 'gbe-msu1-intswtch-bytes.btc.net.bw', 'prefix': '168.167.254.0/24', 'ip': '168.167.254.113', 'ip_id': 155, 'est_hop_distance_to_source': 166221.0
+        },
+        4: {'rtt': 1.466, 'hostname': '', 'prefix': '168.167.3.0/24', 'ip': '168.167.3.99', 'ip_id': 49, 'est_hop_distance_to_source': 145134.0
+        },
+        5: {'rtt': 1.945, 'hostname': 'unknown', 'prefix': '41.191.216.0/23', 'ip': '41.191.216.125', 'ip_id': 50, 'est_hop_distance_to_source': 192555.0
+        },
+        6: {'rtt': 15.64, 'hostname': 'unknown', 'prefix': '41.191.216.0/22', 'ip': '41.191.219.217', 'ip_id': 51, 'est_hop_distance_to_source': 1548360.0
+        },
+        7: {'rtt': 10.311, 'hostname': 'websquad.ixp.joburg', 'prefix': '196.60.9.37', 'ip': '196.60.9.37', 'ip_id': 398, 'est_hop_distance_to_source': 1020789.0
+        },
+        8: {'rtt': 32.165, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.118', 'ip_id': 399, 'est_hop_distance_to_source': 3184335.0
+        },
+        9: {'rtt': 33.607, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 3327093.0
+        },
+        10: {'rtt': 32.344, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 3202056.0
+        },
+        11: {'rtt': 32.93, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 3260070.0
+        }, 'target_to_last_router_time': 0.5859999999999985
+    },
+    19994: {'lat': Decimal('-26.04050000'), 'lon': Decimal('28.01150000'), 'asn': 37680, 'ip': '102.132.201.180', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 7, 'last_router_hop': 10, 'ixp_to_target_time': 19.9, 'ixp_to_last_router_time': 20.267000000000003,
+        1: {'rtt': 5.277, 'hostname': '', 'prefix': '', 'ip': '192.168.88.254', 'ip_id': 458, 'est_hop_distance_to_source': 522423.0
+        }, 'total_hops': 11,
+        2: {'rtt': 4.46, 'hostname': '', 'prefix': '', 'ip': '10.24.24.2', 'ip_id': 459, 'est_hop_distance_to_source': 441540.0
+        },
+        3: {'rtt': 4.655, 'hostname': 'nem1-cust.coolideas.co.za', 'prefix': '102.132.192.0/20', 'ip': '102.132.201.249', 'ip_id': 158, 'est_hop_distance_to_source': 460845.0
+        },
+        4: {'rtt': 4.54, 'hostname': 'uxe-cust.coolideas.co.za', 'prefix': '154.0.0.0/20', 'ip': '154.0.4.178', 'ip_id': 159, 'est_hop_distance_to_source': 449460.0
+        },
+        5: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        },
+        6: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        },
+        7: {'rtt': 6.26, 'hostname': 'websquad.jinx.net.za', 'prefix': '196.223.14.138', 'ip': '196.223.14.138', 'ip_id': 391, 'est_hop_distance_to_source': 619740.0
+        },
+        8: {'rtt': 24.253, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2401047.0
+        },
+        9: {'rtt': 26.048, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2578752.0
+        },
+        10: {'rtt': 26.527, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2626173.0
+        },
+        11: {'rtt': 26.16, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2589840.0
+        }, 'target_to_last_router_time': -0.3670000000000009
+    },
+    22221: {'lat': Decimal('-33.97250000'), 'lon': Decimal('18.46850000'), 'asn': 37153, 'ip': '196.40.111.174', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 6, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        }, 'total_hops': 7,
+        2: {'rtt': 0.439, 'hostname': 'core-router1.cpt2.host-h.net', 'prefix': '41.204.192.0/20', 'ip': '41.204.206.37', 'ip_id': 161, 'est_hop_distance_to_source': 43461.0
+        },
+        3: {'rtt': 0.405, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 40095.0
+        },
+        4: {'rtt': 0.45, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 44550.0
+        },
+        5: {'rtt': 1.704, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 168696.0
+        },
+        6: {'rtt': 1.908, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 188892.0
+        },
+        7: {'rtt': 1.184, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 117216.0
+        }, 'target_to_last_router_time': -0.724
+    },
+    25200: {'lat': Decimal('-33.95250000'), 'lon': Decimal('18.84750000'), 'asn': 10474, 'ip': '197.94.19.20', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 9, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        }, 'total_hops': 10,
+        2: {'rtt': 0.884, 'hostname': '', 'prefix': '', 'ip': '192.168.131.253', 'ip_id': 461, 'est_hop_distance_to_source': 87516.0
+        },
+        3: {'rtt': 4.387, 'hostname': '197-84-0-85.cpt.mweb.co.za', 'prefix': '197.80.0.0/13', 'ip': '197.84.0.85', 'ip_id': 462, 'est_hop_distance_to_source': 434312.99999999994
+        },
+        4: {'rtt': 3.879, 'hostname': '', 'prefix': '197.80.0.0/13', 'ip': '197.84.96.118', 'ip_id': 463, 'est_hop_distance_to_source': 384021.0
+        },
+        5: {'rtt': 4.701, 'hostname': '', 'prefix': '197.80.0.0/13', 'ip': '197.84.7.21', 'ip_id': 464, 'est_hop_distance_to_source': 465398.99999999994
+        },
+        6: {'rtt': 4.807, 'hostname': '', 'prefix': '197.80.0.0/13', 'ip': '197.84.4.243', 'ip_id': 465, 'est_hop_distance_to_source': 475893.00000000006
+        },
+        7: {'rtt': 4.795, 'hostname': '', 'prefix': '197.80.0.0/13', 'ip': '197.84.8.133', 'ip_id': 466, 'est_hop_distance_to_source': 474705.0
+        },
+        8: {'rtt': 6.104, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 604296.0
+        },
+        9: {'rtt': 5.785, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 572715.0
+        },
+        10: {'rtt': 5.063, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 501237.0
+        }, 'target_to_last_router_time': -0.7220000000000004
+    },
+    29179: {'lat': Decimal('-26.13850000'), 'lon': Decimal('28.20050000'), 'asn': 37670, 'ip': '41.77.51.6', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 2, 'last_router_hop': 5, 'ixp_to_target_time': 21.628, 'ixp_to_last_router_time': 22.615000000000002,
+        1: {'rtt': 0.535, 'hostname': 'unknown', 'prefix': '41.77.48.0/21', 'ip': '41.77.51.1', 'ip_id': 181, 'est_hop_distance_to_source': 52965.0
+        }, 'total_hops': 6,
+        2: {'rtt': 0.616, 'hostname': 'websquad.ixp.joburg', 'prefix': '196.60.9.37', 'ip': '196.60.9.37', 'ip_id': 398, 'est_hop_distance_to_source': 60984.0
+        },
+        3: {'rtt': 21.678, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2146122.0
+        },
+        4: {'rtt': 22.868, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2263932.0
+        },
+        5: {'rtt': 23.231, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2299869.0
+        },
+        6: {'rtt': 22.244, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2202156.0
+        }, 'target_to_last_router_time': -0.9870000000000019
+    },
+    33053: {'lat': Decimal('-34.42150000'), 'lon': Decimal('19.23950000'), 'asn': 37640, 'ip': '154.66.91.130', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 7, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.415, 'hostname': '', 'prefix': '', 'ip': '192.168.44.206', 'ip_id': 467, 'est_hop_distance_to_source': 41085.0
+        }, 'total_hops': 8,
+        2: {'rtt': 6.696, 'hostname': 'gw-hermanus.as37640.net', 'prefix': '154.66.88.0/21', 'ip': '154.66.89.97', 'ip_id': 183, 'est_hop_distance_to_source': 662904.0
+        },
+        3: {'rtt': 6.804, 'hostname': '', 'prefix': '154.66.88.0/21', 'ip': '154.66.88.190', 'ip_id': 184, 'est_hop_distance_to_source': 673596.0
+        },
+        4: {'rtt': 6.613, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 654687.0
+        },
+        5: {'rtt': 6.756, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 668844.0
+        },
+        6: {'rtt': 8.086, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 800514.0
+        },
+        7: {'rtt': 7.778, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 770022.0
+        },
+        8: {'rtt': 7.396, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 732204.0
+        }, 'target_to_last_router_time': -0.3819999999999997
+    },
+    33073: {'lat': Decimal('-26.52150000'), 'lon': Decimal('29.19050000'), 'asn': 32437, 'ip': '160.119.192.252', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 0, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0
+    },
+    33136: {'lat': Decimal('-33.91950000'), 'lon': Decimal('18.40850000'), 'asn': 37199, 'ip': '197.155.8.131', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 7, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.358, 'hostname': '', 'prefix': '197.155.8.0/21', 'ip': '197.155.8.129', 'ip_id': 189, 'est_hop_distance_to_source': 35442.0
+        }, 'total_hops': 8,
+        2: {'rtt': 0.436, 'hostname': '', 'prefix': '197.155.0.0/21', 'ip': '197.155.0.18', 'ip_id': 190, 'est_hop_distance_to_source': 43164.0
+        },
+        3: {'rtt': 0.656, 'hostname': '', 'prefix': '197.155.0.0/21', 'ip': '197.155.0.133', 'ip_id': 191, 'est_hop_distance_to_source': 64944.0
+        },
+        4: {'rtt': 0.739, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 73161.0
+        },
+        5: {'rtt': 19.4, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.118', 'ip_id': 399, 'est_hop_distance_to_source': 1920599.9999999998
+        },
+        6: {'rtt': 20.724, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2051676.0
+        },
+        7: {'rtt': 20.642, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2043558.0
+        },
+        8: {'rtt': 20.003, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 1980297.0
+        }, 'target_to_last_router_time': -0.6389999999999993
+    },
+    33145: {'lat': Decimal('-26.00050000'), 'lon': Decimal('27.98950000'), 'asn': 328145, 'ip': '156.38.2.17', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 4, 'last_router_hop': 7, 'ixp_to_target_time': 23.557, 'ixp_to_last_router_time': 23.774,
+        1: {'rtt': 0.512, 'hostname': '', 'prefix': '', 'ip': '192.168.2.1', 'ip_id': 469, 'est_hop_distance_to_source': 50688.0
+        }, 'total_hops': 8,
+        2: {'rtt': 4.516, 'hostname': 'er-04.jhb.za.as328145.network', 'prefix': '156.38.0.0/24', 'ip': '156.38.0.66', 'ip_id': 193, 'est_hop_distance_to_source': 447084.0
+        },
+        3: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        },
+        4: {'rtt': 2.957, 'hostname': 'websquad.ixp.joburg', 'prefix': '196.60.9.37', 'ip': '196.60.9.37', 'ip_id': 398, 'est_hop_distance_to_source': 292743.0
+        },
+        5: {'rtt': 24.73, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.118', 'ip_id': 399, 'est_hop_distance_to_source': 2448270.0
+        },
+        6: {'rtt': 26.676, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2640924.0
+        },
+        7: {'rtt': 26.731, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2646369.0
+        },
+        8: {'rtt': 26.514, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2624886.0
+        }, 'target_to_last_router_time': -0.2170000000000023
+    },
+    33154: {'lat': Decimal('-34.08050000'), 'lon': Decimal('18.84950000'), 'asn': 37640, 'ip': '154.66.91.131', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 10, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.501, 'hostname': '', 'prefix': '', 'ip': '192.168.44.198', 'ip_id': 470, 'est_hop_distance_to_source': 49599.0
+        }, 'total_hops': 11,
+        2: {'rtt': 0.555, 'hostname': '', 'prefix': '154.66.88.0/21', 'ip': '154.66.88.153', 'ip_id': 196, 'est_hop_distance_to_source': 54945.00000000001
+        },
+        3: {'rtt': 0.871, 'hostname': '', 'prefix': '154.66.88.0/21', 'ip': '154.66.88.186', 'ip_id': 197, 'est_hop_distance_to_source': 86229.0
+        },
+        4: {'rtt': 1.197, 'hostname': '', 'prefix': '154.66.88.0/21', 'ip': '154.66.89.8', 'ip_id': 198, 'est_hop_distance_to_source': 118503.0
+        },
+        5: {'rtt': 2.192, 'hostname': 'core.ct1.as37640.net', 'prefix': '45.222.64.0/19', 'ip': '45.222.95.50', 'ip_id': 199, 'est_hop_distance_to_source': 217008.00000000003
+        },
+        6: {'rtt': 2.499, 'hostname': '', 'prefix': '154.66.88.0/21', 'ip': '154.66.88.190', 'ip_id': 184, 'est_hop_distance_to_source': 247401.0
+        },
+        7: {'rtt': 2.249, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 222651.0
+        },
+        8: {'rtt': 2.363, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 233937.0
+        },
+        9: {'rtt': 4.486, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 444114.0
+        },
+        10: {'rtt': 4.51, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 446490.0
+        },
+        11: {'rtt': 2.974, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 294426.0
+        }, 'target_to_last_router_time': -1.5359999999999996
+    },
+    33160: {'lat': Decimal('-33.92250000'), 'lon': Decimal('18.41050000'), 'asn': 37199, 'ip': '41.76.134.130', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 7, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.409, 'hostname': 'bbcore.gig.za.net', 'prefix': '41.76.134.0/23', 'ip': '41.76.134.129', 'ip_id': 200, 'est_hop_distance_to_source': 40491.0
+        }, 'total_hops': 8,
+        2: {'rtt': 0.593, 'hostname': '', 'prefix': '197.155.0.0/21', 'ip': '197.155.0.18', 'ip_id': 190, 'est_hop_distance_to_source': 58707.0
+        },
+        3: {'rtt': 0.842, 'hostname': '', 'prefix': '197.155.0.0/21', 'ip': '197.155.0.133', 'ip_id': 191, 'est_hop_distance_to_source': 83358.0
+        },
+        4: {'rtt': 0.791, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 78309.0
+        },
+        5: {'rtt': 19.345, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.118', 'ip_id': 399, 'est_hop_distance_to_source': 1915155.0
+        },
+        6: {'rtt': 20.882, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2067318.0000000002
+        },
+        7: {'rtt': 21.176, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2096423.9999999998
+        },
+        8: {'rtt': 20.055, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 1985445.0
+        }, 'target_to_last_router_time': -1.1209999999999987
+    },
+    33175: {'lat': Decimal('-33.92050000'), 'lon': Decimal('18.39050000'), 'asn': 37199, 'ip': '197.155.10.49', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 7, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.349, 'hostname': '', 'prefix': '', 'ip': '192.168.0.1', 'ip_id': 445, 'est_hop_distance_to_source': 34551.0
+        }, 'total_hops': 8,
+        2: {'rtt': 0.589, 'hostname': 'unknown', 'prefix': '105.233.0.0/17', 'ip': '105.233.1.35', 'ip_id': 201, 'est_hop_distance_to_source': 58311.0
+        },
+        3: {'rtt': 0.818, 'hostname': 'ls-teraco10g.gig.za.net', 'prefix': '41.76.130.0/23', 'ip': '41.76.130.137', 'ip_id': 202, 'est_hop_distance_to_source': 80982.0
+        },
+        4: {'rtt': 0.915, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 90585.0
+        },
+        5: {'rtt': 19.517, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.118', 'ip_id': 399, 'est_hop_distance_to_source': 1932183.0
+        },
+        6: {'rtt': 20.876, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2066724.0000000002
+        },
+        7: {'rtt': 21.205, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2099295.0
+        },
+        8: {'rtt': 20.279, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2007621.0
+        }, 'target_to_last_router_time': -0.9259999999999984
+    },
+    33273: {'lat': Decimal('-29.60150000'), 'lon': Decimal('30.38050000'), 'asn': 37611, 'ip': '165.73.75.78', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 4, 'last_router_hop': 8, 'ixp_to_target_time': 31.254999999999995, 'ixp_to_last_router_time': 29.399,
+        1: {'rtt': 0.765, 'hostname': '', 'prefix': '', 'ip': '192.168.0.1', 'ip_id': 445, 'est_hop_distance_to_source': 75735.0
+        }, 'total_hops': 9,
+        2: {'rtt': 2.892, 'hostname': '165-73-75-1.ip.afrihost.co.za', 'prefix': '165.73.0.0/17', 'ip': '165.73.75.1', 'ip_id': 207, 'est_hop_distance_to_source': 286308.0
+        },
+        3: {'rtt': 3.726, 'hostname': '', 'prefix': '169.0.0.0/15', 'ip': '169.1.21.40', 'ip_id': 208, 'est_hop_distance_to_source': 368874.0
+        },
+        4: {'rtt': 3.902, 'hostname': 'websquad.ixp.durban', 'prefix': '196.10.141.37', 'ip': '196.10.141.37', 'ip_id': 453, 'est_hop_distance_to_source': 386298.0
+        },
+        5: {'rtt': 11.599, 'hostname': 'core.cr-01.jb1.za.ws.net.za', 'prefix': '160.119.224.0/24', 'ip': '160.119.224.21', 'ip_id': 454, 'est_hop_distance_to_source': 1148301.0
+        },
+        6: {'rtt': 33.463, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 3312837.0
+        },
+        7: {'rtt': 32.853, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 3252447.0
+        },
+        8: {'rtt': 33.301, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 3296799.0
+        },
+        9: {'rtt': 35.157, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 3480542.9999999995
+        }, 'target_to_last_router_time': 1.8559999999999945
+    },
+    3454: {'lat': Decimal('-33.93050000'), 'lon': Decimal('18.46950000'), 'asn': 2018, 'ip': '196.24.39.242', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 11, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 3.031, 'hostname': '', 'prefix': '', 'ip': '10.8.2.254', 'ip_id': 474, 'est_hop_distance_to_source': 300069.0
+        }, 'total_hops': 12,
+        2: {'rtt': 2.211, 'hostname': '', 'prefix': '', 'ip': '10.4.1.254', 'ip_id': 475, 'est_hop_distance_to_source': 218889.0
+        },
+        3: {'rtt': 2.216, 'hostname': '', 'prefix': '', 'ip': '10.1.32.1', 'ip_id': 476, 'est_hop_distance_to_source': 219384.00000000003
+        },
+        4: {'rtt': 3.181, 'hostname': '', 'prefix': '196.24.0.0/16', 'ip': '196.24.39.254', 'ip_id': 213, 'est_hop_distance_to_source': 314919.0
+        },
+        5: {'rtt': 2.948, 'hostname': '', 'prefix': '155.232.0.0/17', 'ip': '155.232.64.72', 'ip_id': 477, 'est_hop_distance_to_source': 291852.0
+        },
+        6: {'rtt': 3.137, 'hostname': '', 'prefix': '155.232.0.0/17', 'ip': '155.232.64.65', 'ip_id': 478, 'est_hop_distance_to_source': 310563.0
+        },
+        7: {'rtt': 2.771, 'hostname': '', 'prefix': '155.232.0.0/17', 'ip': '155.232.64.85', 'ip_id': 479, 'est_hop_distance_to_source': 274329.0
+        },
+        8: {'rtt': 2.866, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 283734.0
+        },
+        9: {'rtt': 2.745, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 271755.0
+        },
+        10: {'rtt': 4.279, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 423621.0
+        },
+        11: {'rtt': 4.322, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 427878.0
+        },
+        12: {'rtt': 3.963, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 392337.0
+        }, 'target_to_last_router_time': -0.359
+    },
+    4041: {'lat': Decimal('-33.93250000'), 'lon': Decimal('18.37950000'), 'asn': 37680, 'ip': '155.93.242.243', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 8, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 6.443, 'hostname': '', 'prefix': '', 'ip': '172.22.0.1', 'ip_id': 480, 'est_hop_distance_to_source': 637857.0
+        }, 'total_hops': 9,
+        2: {'rtt': 4.905, 'hostname': '', 'prefix': '154.0.0.0/20', 'ip': '154.0.0.246', 'ip_id': 219, 'est_hop_distance_to_source': 485595.0
+        },
+        3: {'rtt': 4.641, 'hostname': '', 'prefix': '154.0.0.0/20', 'ip': '154.0.4.162', 'ip_id': 481, 'est_hop_distance_to_source': 459459.0
+        },
+        4: {'rtt': 4.614, 'hostname': '', 'prefix': '154.0.0.0/20', 'ip': '154.0.4.174', 'ip_id': 221, 'est_hop_distance_to_source': 456786.0
+        },
+        5: {'rtt': 3.426, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 339174.0
+        },
+        6: {'rtt': 3.56, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 352440.0
+        },
+        7: {'rtt': 5.129, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 507770.99999999994
+        },
+        8: {'rtt': 5.471, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 541629.0
+        },
+        9: {'rtt': 4.199, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 415701.0
+        }, 'target_to_last_router_time': -1.2720000000000002
+    },
+    4088: {'lat': Decimal('-26.19850000'), 'lon': Decimal('28.05150000'), 'asn': 327813, 'ip': '169.255.59.253', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 2, 'last_router_hop': 5, 'ixp_to_target_time': 20.225, 'ixp_to_last_router_time': 21.016,
+        1: {'rtt': 2.573, 'hostname': 'centurion-jhb1.web4africa.net.za', 'prefix': '169.255.59.0/24', 'ip': '169.255.59.254', 'ip_id': 224, 'est_hop_distance_to_source': 254727.0
+        }, 'total_hops': 6,
+        2: {'rtt': 2.295, 'hostname': 'websquad.jinx.net.za', 'prefix': '196.223.14.138', 'ip': '196.223.14.138', 'ip_id': 391, 'est_hop_distance_to_source': 227205.0
+        },
+        3: {'rtt': 21.804, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2158596.0
+        },
+        4: {'rtt': 23.695, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2345805.0
+        },
+        5: {'rtt': 23.311, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2307789.0
+        },
+        6: {'rtt': 22.52, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2229480.0
+        }, 'target_to_last_router_time': -0.7910000000000004
+    },
+    4518: {'lat': Decimal('-33.30850000'), 'lon': Decimal('26.51750000'), 'asn': 2018, 'ip': '196.21.240.101', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 0, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        }, 'total_hops': 1
+    },
+    473: {'lat': Decimal('-26.15150000'), 'lon': Decimal('28.04050000'), 'asn': 3741, 'ip': '196.4.161.3', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 3, 'last_router_hop': 8, 'ixp_to_target_time': 18.621000000000002, 'ixp_to_last_router_time': 19.94,
+        1: {'rtt': 5.938, 'hostname': 't254.is.co.za', 'prefix': '196.4.160.0/23', 'ip': '196.4.161.254', 'ip_id': 225, 'est_hop_distance_to_source': 587862.0
+        }, 'total_hops': 9,
+        2: {'rtt': 3.808, 'hostname': '', 'prefix': '168.209.0.0/16', 'ip': '168.209.1.170', 'ip_id': 254, 'est_hop_distance_to_source': 376992.0
+        },
+        3: {'rtt': 3.63, 'hostname': 'networkplatforms.jinx.net.za', 'prefix': '196.223.14.86', 'ip': '196.223.14.86', 'ip_id': 410, 'est_hop_distance_to_source': 359370.0
+        },
+        4: {'rtt': 3.336, 'hostname': '162-64-148-197.as37497.za.net', 'prefix': '197.148.64.0/21', 'ip': '197.148.64.162', 'ip_id': 411, 'est_hop_distance_to_source': 330264.0
+        },
+        5: {'rtt': 25.379, 'hostname': '', 'prefix': '197.148.64.0/21', 'ip': '197.148.71.6', 'ip_id': 412, 'est_hop_distance_to_source': 2512521.0
+        },
+        6: {'rtt': 23.194, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2296206.0
+        },
+        7: {'rtt': 23.031, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2280069.0
+        },
+        8: {'rtt': 23.57, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2333430.0
+        },
+        9: {'rtt': 22.251, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2202849.0
+        }, 'target_to_last_router_time': -1.318999999999999
+    },
+    50011: {'lat': Decimal('-26.20250000'), 'lon': Decimal('28.04750000'), 'asn': 3741, 'ip': '196.209.219.161', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 8, 'last_router_hop': 13, 'ixp_to_target_time': 18.869, 'ixp_to_last_router_time': 21.67,
+        1: {'rtt': 1.338, 'hostname': '', 'prefix': '', 'ip': '10.0.110.1', 'ip_id': 484, 'est_hop_distance_to_source': 132462.0
+        }, 'total_hops': 14,
+        2: {'rtt': 100.0, 'hostname': 'unknown', 'prefix': 'unknown', 'ip': None, 'ip_id': None, 'est_hop_distance_to_source': 9900000.0
+        },
+        3: {'rtt': 7.099, 'hostname': 'unknown', 'prefix': '196.38.0.0/16', 'ip': '196.38.75.109', 'ip_id': 29, 'est_hop_distance_to_source': 702801.0
+        },
+        4: {'rtt': 5.072, 'hostname': '', 'prefix': '196.38.0.0/16', 'ip': '196.38.75.110', 'ip_id': 30, 'est_hop_distance_to_source': 502128.0
+        },
+        5: {'rtt': 4.356, 'hostname': '', 'prefix': '196.38.0.0/16', 'ip': '196.38.77.16', 'ip_id': 31, 'est_hop_distance_to_source': 431244.0
+        },
+        6: {'rtt': 7.429, 'hostname': 'unknown', 'prefix': '168.209.0.0/16', 'ip': '168.209.0.34', 'ip_id': 32, 'est_hop_distance_to_source': 735471.0
+        },
+        7: {'rtt': 4.881, 'hostname': 'unknown', 'prefix': '196.26.0.0/16', 'ip': '196.26.0.10', 'ip_id': 38, 'est_hop_distance_to_source': 483219.0
+        },
+        8: {'rtt': 5.296, 'hostname': 'networkplatforms.jinx.net.za', 'prefix': '196.223.14.86', 'ip': '196.223.14.86', 'ip_id': 410, 'est_hop_distance_to_source': 524304.0
+        },
+        9: {'rtt': 5.716, 'hostname': '162-64-148-197.as37497.za.net', 'prefix': '197.148.64.0/21', 'ip': '197.148.64.162', 'ip_id': 411, 'est_hop_distance_to_source': 565884.0
+        },
+        10: {'rtt': 26.486, 'hostname': '', 'prefix': '197.148.64.0/21', 'ip': '197.148.71.6', 'ip_id': 412, 'est_hop_distance_to_source': 2622114.0
+        },
+        11: {'rtt': 25.332, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2507868.0
+        },
+        12: {'rtt': 25.021, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2477079.0
+        },
+        13: {'rtt': 26.966, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2669634.0
+        },
+        14: {'rtt': 24.165, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2392335.0
+        }, 'target_to_last_router_time': -2.801000000000002
+    },
+    50138: {'lat': Decimal('-33.63850000'), 'lon': Decimal('19.00850000'), 'asn': 327872, 'ip': '169.255.170.2', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 8, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.639, 'hostname': '', 'prefix': '', 'ip': '192.168.0.2', 'ip_id': 485, 'est_hop_distance_to_source': 63261.0
+        }, 'total_hops': 9,
+        2: {'rtt': 8.635, 'hostname': '', 'prefix': '', 'ip': '10.13.200.254', 'ip_id': 486, 'est_hop_distance_to_source': 854865.0
+        },
+        3: {'rtt': 9.723, 'hostname': '169-255-169-153.ibits.co.za', 'prefix': '169.255.168.0/22', 'ip': '169.255.169.153', 'ip_id': 229, 'est_hop_distance_to_source': 962577.0000000001
+        },
+        4: {'rtt': 9.532, 'hostname': '', 'prefix': '169.255.168.0/22', 'ip': '169.255.169.254', 'ip_id': 230, 'est_hop_distance_to_source': 943668.0
+        },
+        5: {'rtt': 10.091, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 999008.9999999999
+        },
+        6: {'rtt': 11.983, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 1186317.0
+        },
+        7: {'rtt': 14.07, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 1392930.0
+        },
+        8: {'rtt': 11.068, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 1095732.0
+        },
+        9: {'rtt': 11.672, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 1155528.0
+        }, 'target_to_last_router_time': 0.604000000000001
+    },
+    50139: {'lat': Decimal('-29.78850000'), 'lon': Decimal('30.84850000'), 'asn': 327987, 'ip': '41.78.245.20', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 5, 'last_router_hop': 9, 'ixp_to_target_time': 30.038, 'ixp_to_last_router_time': 32.108999999999995,
+        1: {'rtt': 0.519, 'hostname': '', 'prefix': '', 'ip': '192.168.24.1', 'ip_id': 487, 'est_hop_distance_to_source': 51381.0
+        }, 'total_hops': 10,
+        2: {'rtt': 0.661, 'hostname': 'unknown', 'prefix': '11.0.0.0/8', 'ip': '11.25.4.5', 'ip_id': 232, 'est_hop_distance_to_source': 65439.0
+        },
+        3: {'rtt': 1.614, 'hostname': 'unknown', 'prefix': '100.64.63.30', 'ip': '100.64.63.30', 'ip_id': 233, 'est_hop_distance_to_source': 159786.0
+        },
+        4: {'rtt': 2.044, 'hostname': 'unknown', 'prefix': '100.116.49.106', 'ip': '100.116.49.106', 'ip_id': 234, 'est_hop_distance_to_source': 202356.0
+        },
+        5: {'rtt': 2.197, 'hostname': 'websquad.dinx.net.za', 'prefix': '196.223.30.138', 'ip': '196.223.30.138', 'ip_id': 473, 'est_hop_distance_to_source': 217503.0
+        },
+        6: {'rtt': 9.062, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.65', 'ip_id': 488, 'est_hop_distance_to_source': 897137.9999999999
+        },
+        7: {'rtt': 31.252, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.118', 'ip_id': 399, 'est_hop_distance_to_source': 3093948.0
+        },
+        8: {'rtt': 33.694, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 3335706.0000000005
+        },
+        9: {'rtt': 34.306, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 3396293.9999999995
+        },
+        10: {'rtt': 32.235, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 3191265.0
+        }, 'target_to_last_router_time': -2.070999999999998
+    },
+    50192: {'lat': Decimal('-29.78150000'), 'lon': Decimal('31.00150000'), 'asn': 328483, 'ip': '102.67.184.250', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 0, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0
+    },
+    50322: {'lat': Decimal('-29.72150000'), 'lon': Decimal('31.07850000'), 'asn': 61092, 'ip': '169.255.36.69', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 4, 'last_router_hop': 8, 'ixp_to_target_time': 32.398999999999994, 'ixp_to_last_router_time': 33.153,
+        1: {'rtt': 0.855, 'hostname': '', 'prefix': '', 'ip': '10.1.0.3', 'ip_id': 489, 'est_hop_distance_to_source': 84645.0
+        }, 'total_hops': 9,
+        2: {'rtt': 1.652, 'hostname': 'ipa1-dbn.123net.link', 'prefix': '169.255.36.0/24', 'ip': '169.255.36.1', 'ip_id': 238, 'est_hop_distance_to_source': 163548.0
+        },
+        3: {'rtt': 2.416, 'hostname': 'border-dbn.123net.link', 'prefix': '169.255.38.0/23', 'ip': '169.255.38.1', 'ip_id': 239, 'est_hop_distance_to_source': 239184.0
+        },
+        4: {'rtt': 2.023, 'hostname': 'websquad.ixp.durban', 'prefix': '196.10.141.37', 'ip': '196.10.141.37', 'ip_id': 453, 'est_hop_distance_to_source': 200277.0
+        },
+        5: {'rtt': 11.866, 'hostname': 'core.cr-01.jb1.za.ws.net.za', 'prefix': '160.119.224.0/24', 'ip': '160.119.224.21', 'ip_id': 454, 'est_hop_distance_to_source': 1174734.0
+        },
+        6: {'rtt': 33.734, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.118', 'ip_id': 399, 'est_hop_distance_to_source': 3339666.0
+        },
+        7: {'rtt': 34.808, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 3445992.0
+        },
+        8: {'rtt': 35.176, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 3482424.0
+        },
+        9: {'rtt': 34.422, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 3407777.9999999995
+        }, 'target_to_last_router_time': -0.7540000000000049
+    },
+    50355: {'lat': Decimal('-29.78050000'), 'lon': Decimal('30.82950000'), 'asn': 37497, 'ip': '154.66.187.193', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 0, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0
+    },
+    50396: {'lat': Decimal('-33.95950000'), 'lon': Decimal('18.47150000'), 'asn': 37680, 'ip': '102.132.251.34', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 0, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0
+    },
+    50618: {'lat': Decimal('-26.07850000'), 'lon': Decimal('28.01750000'), 'asn': 37680, 'ip': '102.132.135.239', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 7, 'last_router_hop': 10, 'ixp_to_target_time': 19.637, 'ixp_to_last_router_time': 20.310000000000002,
+        1: {'rtt': 10.653, 'hostname': '', 'prefix': '', 'ip': '192.168.0.1', 'ip_id': 445, 'est_hop_distance_to_source': 1054647.0
+        }, 'total_hops': 11,
+        2: {'rtt': 3.789, 'hostname': 'n1dt-cust.coolideas.co.za', 'prefix': '102.132.128.0/20', 'ip': '102.132.135.1', 'ip_id': 240, 'est_hop_distance_to_source': 375111.0
+        },
+        3: {'rtt': 4.75, 'hostname': '', 'prefix': '154.0.0.0/20', 'ip': '154.0.3.97', 'ip_id': 241, 'est_hop_distance_to_source': 470250.0
+        },
+        4: {'rtt': 1.78, 'hostname': '', 'prefix': '154.0.0.0/20', 'ip': '154.0.5.1', 'ip_id': 242, 'est_hop_distance_to_source': 176220.0
+        },
+        5: {'rtt': 2.146, 'hostname': 'unknown', 'prefix': '100.99.0.177', 'ip': '100.99.0.177', 'ip_id': 490, 'est_hop_distance_to_source': 212454.0
+        },
+        6: {'rtt': 1.974, 'hostname': 'unknown', 'prefix': '100.99.0.180', 'ip': '100.99.0.180', 'ip_id': 244, 'est_hop_distance_to_source': 195426.0
+        },
+        7: {'rtt': 2.586, 'hostname': 'websquad.jinx.net.za', 'prefix': '196.223.14.138', 'ip': '196.223.14.138', 'ip_id': 391, 'est_hop_distance_to_source': 256014.0
+        },
+        8: {'rtt': 21.282, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2106918.0
+        },
+        9: {'rtt': 23.287, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2305413.0
+        },
+        10: {'rtt': 22.896, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2266704.0
+        },
+        11: {'rtt': 22.223, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2200077.0
+        }, 'target_to_last_router_time': -0.6730000000000018
+    },
+    50858: {'lat': Decimal('-25.94850000'), 'lon': Decimal('32.57950000'), 'asn': 37697, 'ip': '196.10.148.18', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 0, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0
+    },
+    51813: {'lat': Decimal('-26.08150000'), 'lon': Decimal('28.24750000'), 'asn': 37611, 'ip': '165.73.45.203', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 0, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0
+    },
+    52902: {'lat': Decimal('-33.95150000'), 'lon': Decimal('18.49750000'), 'asn': 36874, 'ip': '41.177.148.168', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 0, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0
+    },
+    54246: {'lat': Decimal('-33.80950000'), 'lon': Decimal('18.66950000'), 'asn': 13335, 'ip': '8.20.101.241', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 7, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 0.636, 'hostname': '', 'prefix': '', 'ip': '192.168.241.1', 'ip_id': 491, 'est_hop_distance_to_source': 62964.0
+        }, 'total_hops': 8,
+        2: {'rtt': 2.529, 'hostname': '', 'prefix': '', 'ip': '172.16.0.1', 'ip_id': 492, 'est_hop_distance_to_source': 250371.0
+        },
+        3: {'rtt': 3.17, 'hostname': 'unknown', 'prefix': '172.68.184.0/22', 'ip': '172.68.185.1', 'ip_id': 247, 'est_hop_distance_to_source': 313830.0
+        },
+        4: {'rtt': 2.503, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 247797.0
+        },
+        5: {'rtt': 2.58, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 255420.0
+        },
+        6: {'rtt': 4.369, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 432531.0
+        },
+        7: {'rtt': 4.6, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 455399.99999999994
+        },
+        8: {'rtt': 3.511, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 347589.0
+        }, 'target_to_last_router_time': -1.0889999999999995
+    },
+    6053: {'lat': Decimal('-26.14150000'), 'lon': Decimal('28.00950000'), 'asn': 10474, 'ip': '197.80.104.36', 'is_anchor': 0, 'first_hop': 0, 'ixp_hop': 0, 'last_router_hop': 10, 'ixp_to_target_time': 0, 'ixp_to_last_router_time': 0,
+        1: {'rtt': 10.713, 'hostname': '', 'prefix': '197.80.0.0/13', 'ip': '197.80.75.3', 'ip_id': 493, 'est_hop_distance_to_source': 1060587.0
+        }, 'total_hops': 11,
+        2: {'rtt': 17.864, 'hostname': '', 'prefix': '197.80.0.0/13', 'ip': '197.80.7.66', 'ip_id': 494, 'est_hop_distance_to_source': 1768536.0
+        },
+        3: {'rtt': 18.81, 'hostname': '', 'prefix': '197.80.0.0/13', 'ip': '197.80.7.1', 'ip_id': 495, 'est_hop_distance_to_source': 1862189.9999999998
+        },
+        4: {'rtt': 29.784, 'hostname': '', 'prefix': '197.80.0.0/13', 'ip': '197.84.4.46', 'ip_id': 496, 'est_hop_distance_to_source': 2948616.0
+        },
+        5: {'rtt': 18.761, 'hostname': '', 'prefix': '197.80.0.0/13', 'ip': '197.84.7.33', 'ip_id': 497, 'est_hop_distance_to_source': 1857339.0
+        },
+        6: {'rtt': 19.762, 'hostname': '', 'prefix': '197.80.0.0/13', 'ip': '197.84.7.60', 'ip_id': 498, 'est_hop_distance_to_source': 1956438.0
+        },
+        7: {'rtt': 19.005, 'hostname': 'websquad.ixp.capetown', 'prefix': '196.60.70.137', 'ip': '196.60.70.137', 'ip_id': 408, 'est_hop_distance_to_source': 1881495.0
+        },
+        8: {'rtt': 18.986, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 1879614.0
+        },
+        9: {'rtt': 27.485, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2721015.0
+        },
+        10: {'rtt': 20.468, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2026332.0
+        },
+        11: {'rtt': 18.573, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 1838727.0
+        }, 'target_to_last_router_time': -1.8949999999999996
+    },
+    6176: {'lat': Decimal('-29.72950000'), 'lon': Decimal('31.07050000'), 'asn': 37668, 'ip': '196.10.55.135', 'is_anchor': 1, 'first_hop': 0, 'ixp_hop': 2, 'last_router_hop': 6, 'ixp_to_target_time': 28.563000000000002, 'ixp_to_last_router_time': 29.174000000000003,
+        1: {'rtt': 1.276, 'hostname': 'unknown', 'prefix': '196.10.55.0/24', 'ip': '196.10.55.131', 'ip_id': 252, 'est_hop_distance_to_source': 126324.0
+        }, 'total_hops': 7,
+        2: {'rtt': 0.583, 'hostname': 'websquad.dinx.net.za', 'prefix': '196.223.30.138', 'ip': '196.223.30.138', 'ip_id': 473, 'est_hop_distance_to_source': 57716.99999999999
+        },
+        3: {'rtt': 8.021, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.65', 'ip_id': 488, 'est_hop_distance_to_source': 794079.0000000001
+        },
+        4: {'rtt': 28.486, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2820114.0
+        },
+        5: {'rtt': 31.128, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 3081672.0
+        },
+        6: {'rtt': 29.757, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2945943.0
+        },
+        7: {'rtt': 29.146, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2885454.0
+        }, 'target_to_last_router_time': -0.6110000000000007
+    },
+    6179: {'lat': Decimal('-26.13850000'), 'lon': Decimal('28.03050000'), 'asn': 37474, 'ip': '196.10.53.7', 'is_anchor': 1, 'first_hop': 0, 'ixp_hop': 2, 'last_router_hop': 5, 'ixp_to_target_time': 20.914, 'ixp_to_last_router_time': 24.621000000000002,
+        1: {'rtt': 11.984, 'hostname': 'unknown', 'prefix': '196.10.52.0/23', 'ip': '196.10.53.2', 'ip_id': 255, 'est_hop_distance_to_source': 1186416.0
+        }, 'total_hops': 6,
+        2: {'rtt': 3.133, 'hostname': 'websquad.jinx.net.za', 'prefix': '196.223.14.138', 'ip': '196.223.14.138', 'ip_id': 391, 'est_hop_distance_to_source': 310167.0
+        },
+        3: {'rtt': 21.929, 'hostname': '', 'prefix': '160.119.232.0/24', 'ip': '160.119.232.5', 'ip_id': 392, 'est_hop_distance_to_source': 2170971.0
+        },
+        4: {'rtt': 24.908, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.174', 'ip_id': 393, 'est_hop_distance_to_source': 2465892.0
+        },
+        5: {'rtt': 27.754, 'hostname': '', 'prefix': '160.119.233.0/24', 'ip': '160.119.233.132', 'ip_id': 394, 'est_hop_distance_to_source': 2747646.0
+        },
+        6: {'rtt': 24.047, 'hostname': '', 'prefix': '160.119.236.0/24', 'ip': '160.119.236.94', 'ip_id': 395, 'est_hop_distance_to_source': 2380653.0
+        }, 'target_to_last_router_time': -3.7070000000000007
+    },
+    6187: {'lat': Decimal('-33.91950000'), 'lon': Decimal('18.42150000'), 'asn': 37663, 'ip': '196.10.54.135', 'is_anchor': 1, 'first_hop': 0, 'ixp_hop': 2, 'last_router_hop': 5, 'ixp_to_target_time': -0.02300000000000013, 'ixp_to_last_router_time': 1.5510000000000002,
+        1: {'rtt': 1.935, 'hostname': 'unknown', 'prefix': '196.10.54.0/24', 'ip': '196.10.54.131', 'ip_id': 256, 'est_hop_distance_to_source': 191565.0
+        }, 'total_hops': 6,
+        2: {'rtt': 1.907, 'hostname': 'networkplatforms
+    }

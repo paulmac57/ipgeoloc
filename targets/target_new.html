@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    
+    
+    
+    <style>
+      html, body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      #mapid {
+        // configure the size of the map 
+        width: 100%;
+        height: 100%;
+      } 
+
+    </style>
+  </head>
+  <body>
+    <div id="mapid"></div>
+    <script>
+      // initialize Leaflet
+
+      var map = L.map('mapid').setView([-26.1577, 28.1729], 12);
+      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox/streets-v11',
+      tileSize: 512,
+      zoomOffset: -1,
+      accessToken: 'pk.eyJ1IjoicGF1bG1hYzU3IiwiYSI6ImNrY3AwMXU3azAxb3Yycm1nOWJjMWwxeW8ifQ.CMYqmZyOXntGEoI1X01_vw'
+      }).addTo(map);
+    
+
+      // show the scale bar on the lower left corner
+      L.control.scale().addTo(map);
+
+      // show Target Probe on the map
+      // Probe 1000492
+      var target = L.circle([-26.1415,28.2015], { color: 'red', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      target.bindPopup("<b>Probe 1000492</b><br />AS 327849<br />169.255.0.135<br />Hops: 5 ");
+
+      //Show the Lasthop
+
+      var lasthop = L.circle([-26.2315,28.0605], { color: 'green', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      lasthop.bindPopup("<b>169.255.0.135</b><br />Olympic Duel Northriding, Johannesburg<br /> ");
+
+      169.255.0.135 43.164 (km) -26.03707210 27.95580480 189 Olympic Duel Northriding, Johannesburg
+      // Probe 13888
+      var target_radius = L.circle([-26.1385,28.2015], { color: 'yellow', fillColor: '#8000000', fillOpacity: 0.5, radius: 500 }).addTo(map);
+      target_radius.bindPopup("<b>Probe 13888</b><br />AS 15022<br />197.255.144.18<br />Hops: 5 ");
+
+      _________________
+      // Create target area for Probe 6569
+      var target_radius = L.circle([-26.0820328,27.9834361], { color: 'yellow', fillColor: '#8000000', fillOpacity: 0.5, radius: 5670 });
+      target_raius.bindPopup("<b>Target 6569_4</b><br />AS 327750<br />154.126.223.204<br />Address: 90 Oxford St, Randburg<br />Estimated Local network Speed : .6C<br />Target Radius : 5.67 Km ");
+
+
+
+    </script>
+  </body>
+</html>
