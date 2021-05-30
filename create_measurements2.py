@@ -40,7 +40,7 @@ geolocator = Nominatim(user_agent="aswindow")
 #print ("lat is ", location.latitude)
 #print ("lon is ", location.longitude)
         
-ATLAS_API_KEY = "6f0e691d-056c-497d-9f5b-2297e970ec60"
+ATLAS_API_KEY = ""
 traceroute_dict = {}                                        # initialis the measuretments dictionary
 measurements_list = [28380424,]                               # initialise the measurements list
 from html_create import Html_Create 
